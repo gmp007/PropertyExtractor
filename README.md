@@ -125,7 +125,7 @@ If you have used the **PropertyExtractor** package in your research, please cite
   author = {Chinedu Ekuma},
   title = {PropertyExtractor -- LLM-based model to extract material property from unstructured dataset},
   year = {2024},
-  howpublished = {\url{https://github.com/gmp007/PropertyExtractor}},
+  howpublished = {https://github.com/gmp007/PropertyExtractor},
   note = {Open-source tool leveraging LLMs like Google Gemini Pro and OpenAI GPT-4 for material property extraction},
 }
 
