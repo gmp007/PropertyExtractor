@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The advent of natural language processing and large language models (LLMs) has revolutionized the extraction of data from unstructured scholarly papers. However, ensuring data trustworthiness remains a significant challenge. In this paper, we introduce **PropertyExtractor**, an open-source tool that leverages advanced conversational LLMs like **Google Gemini Pro** and **OpenAI GPT-4**, blends zero-shot with few-shot in-context learning, and employs engineered prompts for the dynamic refinement of structured information hierarchies. This enables autonomous, efficient, scalable, and accurate identification, extraction, and verification of material property data. **PropertyExtractor** can be used to autonomously generate any material property database.
+The advent of natural language processing and large language models (LLMs) has revolutionized the extraction of data from unstructured scholarly papers. However, ensuring data trustworthiness remains a significant challenge. **PropertyExtractor** is an open-source tool that leverages advanced conversational LLMs like **Google Gemini Pro** and **OpenAI GPT-4**, blends zero-shot with few-shot in-context learning, and employs engineered prompts for the dynamic refinement of structured information hierarchies to enable autonomous, efficient, scalable, and accurate identification, extraction, and verification of material property data to generate material property database. 
 
 ## Features
 
@@ -14,10 +14,10 @@ The advent of natural language processing and large language models (LLMs) has r
 
 ## Installation
 
-**PropertyExtractor** offers straightforward installation options suitable for various user preferences as explained below. We note that in all the installation options, all the libraries and dependables are automatically determined and installed alongside the PropertyExtractor. 
+**PropertyExtractor** offers straightforward installation options suitable for various user preferences as explained below. We note that all the libraries and dependables are automatically determined and installed alongside the PropertyExtractor executable **"propextract"** in all the installation options. 
 
 1. **Using pip**: Our recommended way to install the **PropertyExtractor** package is using pip. 
-   - Quickly install the latest version of the SMATool package with pip by executing: 
+   - Quickly install the latest version of the **PropertyExtractor** package with pip by executing: 
      ```
      pip install -U propextract
      ```
@@ -27,7 +27,7 @@ The advent of natural language processing and large language models (LLMs) has r
      ```
      git clone [git@github.com:gmp007/PropertyExtractor.git]
      ```
-   - Then, install SMATool by navigating to the master directory and running:
+   - Then, install **PropertyExtractor** by navigating to the master directory and running:
      ```
      pip install .
      ```
@@ -44,54 +44,96 @@ The advent of natural language processing and large language models (LLMs) has r
 
 ### Configuration
 
-Before running **PropertyExtractor**, configure the API keys for Google Gemini Pro and OpenAI GPT-4 in the `config.json` file:
+Please don't expose your API keys. Before running **PropertyExtractor**, configure the API keys for Google Gemini Pro and OpenAI GPT-4 as environment variables.
 
-```json
-{
-    "google_gemini_pro_api_key": "YOUR_GOOGLE_GEMINI_PRO_API_KEY",
-    "openai_gpt4_api_key": "YOUR_OPENAI_GPT4_API_KEY"
-}
+### On Linux/macOS
+
+```bash
+export GPT4_API_KEY='your_gpt4_api_key_here'
+export GEMINI_PRO_API_KEY='your_gemini_pro_api_key_here'
+```
+
+### On Windows
+
+```bash
+set GPT4_API_KEY='your_gpt4_api_key_here'
+set GEMINI_PRO_API_KEY='your_gemini_pro_api_key_here'
 ```
    
 ## Usage and Running PropertyExtractor
 
-The best way to learn how to use the SMATool package is to start with the provided examples folder. The key steps for initializing SMATool follows:
+**PropertyExtractor** is easy to run. The key steps for initializing **PropertyExtractor** follows:
 
-1. **Create a Calculation Directory**:
+1. **Unstructured data generation***: Use API to obtain the material property that you want to generate the database from the publishers of your choice. We have written API functions for Elsevier's ScienceDirect API, CrossRef REST API, and PubMed API. We can share some of these if needed. 
+
+2. **Create a Calculation Directory**:
    - Start by creating a directory for your calculations.
-   - Run `smatool -0` to generate the main input template of the SMATool, which is the `smatool.in`.
-
-2. **Modify Input Files**:
-   - Customize the generated files according to your project's requirements, choose the code type between VASP and QE, and specify the directory of your potential files. 
+   - Run `propextract -0` to generate the main input template of the **PropertyExtractor**, which is the `extract.in`. Modify following the detailed instructions included.
+   - Optional files such as the `additionalprompt.txt' for augmenting additional custom prompts and `keywords.json' for custom additional keywords to support the primary keyword are also generated. Modify to suit the material property being extracted. The main input template `extract.in' looks like below:
+     ```
+      ###############################################################################
+      ### The input file to control the calculation details of PropertyExtract    ###
+      ###############################################################################
+      # Type of LLM model: gemini/chatgpt 
+      model_type = gemini
+      # LLM model name: gemini-pro/gpt-4
+      model_name = gemini-pro
+      # Property to extract from texts
+      property = thickness
+      # Harmonized unit for the property to be extracted
+      property_unit = Angstrom
+      # temperature to max_output_tokens are LLM model parameters
+      temperature = 0.0
+      top_p = 0.95
+      max_output_tokens = 80
+      # You can supply additional keywords to be used in conjunction with the property: modify the file keywords.json
+      use_keywords = True
+      # You can add additional custom prompts: modify the file additionalprompt.txt
+      additional_prompts = additionalprompt.txt
+      # Name of input file to be processed: csv/excel format     
+      inputfile_name = 2Dthickness_Elsevier.csv
+      # Column name in the input file to be processed
+      column_name = Text
+      # Name of output file
+      outputfile_name = ppt_test
+     ```
 
 3. **Initialize the Job**:
    - Execute `propextract` to begin the calculation process.
 
-4. **Understanding PropertyExtractor Options**:
+5. **Understanding PropertyExtractor Options**:
    - The main input file `extract.in` includes descriptive text for each flag, making it user-friendly.
 
-## Citing SMATool
-If you have used the SMATool package in your research, please cite:
-  - [SMATool: Strength of materials analysis toolkit](https://doi.org/10.1016/j.cpc.2024.109189) - 
+## Citing PropertyExtractor
+If you have used the **PropertyExtractor** package in your research, please cite:
+  - [Dynamic In-context Learning with Conversational Models for Data Extraction and Materials Property Prediction](https://doi.org/xxxx) - 
 
 @article{Ekuma2024,
-  title = {SMATool: Strength of Materials Analysis Toolkit},
-  journal = {Computer Physics Communications},
-  volume = {300},
-  pages = {109189},
-  year = {2024},
-  doi = {https://doi.org/10.1016/j.cpc.2024.109189},
-  url = {https://www.sciencedirect.com/science/article/abs/pii/S0010465524001127},
+  title = {Dynamic In-context Learning with Conversational Models for Data Extraction and Materials Property Prediction},
+  journal = {Nature Communications},
+  volume = {xx},
+  pages = {xx},
+  year = {xx},
+  doi = {xx},
+  url = {xx},
   author = {Chinedu Ekuma}
 }
 
 
-## Have Questions
-To join the Google user group, post your questions, and see if your inquiries have already been addressed, you can visit the [SMATools User Group](https://groups.google.com/g/smatools/) on Google Groups. This platform allows for interactive discussions and access to previously answered questions, facilitating a comprehensive support community.
+
+@misc{PropertyExtractor,
+  author = {Chinedu Ekuma},
+  title = {PropertyExtractor -- LLM-based model to extract material property from unstructured dataset},
+  year = {2024},
+  howpublished = {\url{https://github.com/gmp007/propertyextractor}},
+  note = {Open-source tool leveraging LLMs like Google Gemini Pro and OpenAI GPT-4 for material property extraction},
+}
+
+
 
 
 ## Contact Information
-If you have any question or if you find a bug, please reach out to us. 
+If you have any questions or if you find a bug, please reach out to us. 
 
 Feel free to contact us via email:
 - [cekuma1@gmail.com](mailto:cekuma1@gmail.com)
