@@ -1,0 +1,25 @@
+###############################################################################
+### The input file to control the calculation details of PropertyExtract    ###
+###############################################################################
+# Type of LLM model: gemini/chatgpt 
+model_type = gemini
+# LLM model name: gemini-pro/gpt-4
+model_name = gemini-pro
+# Property to extract from texts
+property = thickness
+# Harmonized unit for the property to be extracted
+property_unit = Angstrom
+# temperature to max_output_tokens are LLM model parameters
+temperature = 0.0
+top_p = 0.95
+max_output_tokens = 80
+# You can supply additional keywords to be used in conjunction with the property: modify the file keywords.json
+use_keywords = True
+# You can add additional custom prompts: modify the file additionalprompt.txt
+additional_prompts = additionalprompt.txt  
+# Name of input file to be processed: csv/excel format     
+inputfile_name = inputfile.csv
+# Column name in the input file to be processed
+column_name = Text
+# Name of output file
+outputfile_name = outputfile.csv

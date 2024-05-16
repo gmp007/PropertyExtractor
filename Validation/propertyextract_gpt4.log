@@ -1,0 +1,163 @@
+2024-05-15 18:47:36 - INFO - ==========================================================================
+2024-05-15 18:47:36 - INFO - Progress information of structured data extraction using PropertyExtractor
+2024-05-15 18:47:36 - INFO - ==========================================================================
+2024-05-15 18:47:36 - INFO - Detected encoding ISO-8859-1 with confidence 0.73
+2024-05-15 18:47:36 - INFO - Analyzing text 1/50
+2024-05-15 18:47:39 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:47:39 - INFO - Material: BN, thickness: 4.1 (Unit: Å)
+2024-05-15 18:47:39 - INFO - Material: BN, thickness: 2.5 (Unit: Å)
+2024-05-15 18:47:39 - INFO - Analyzing text 2/50
+2024-05-15 18:47:44 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:47:44 - INFO - Material: C, thickness: 13.5 (Unit: Å)
+2024-05-15 18:47:44 - INFO - Material: C, thickness: 14.3 (Unit: Å)
+2024-05-15 18:47:44 - INFO - Material: C, thickness: 13.8 (Unit: Å)
+2024-05-15 18:47:44 - INFO - Analyzing text 3/50
+2024-05-15 18:47:48 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:47:48 - INFO - Material: MoS2, thickness: 180 (Unit: nm)
+2024-05-15 18:47:48 - INFO - Material: MoS2, thickness: 460 (Unit: nm)
+2024-05-15 18:47:48 - INFO - Analyzing text 4/50
+2024-05-15 18:47:51 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:47:51 - INFO - Material: MoS2, thickness: 7.2 (Unit: nm)
+2024-05-15 18:47:51 - INFO - Material: MoS2, thickness: 126.9 (Unit: nm)
+2024-05-15 18:47:51 - INFO - Analyzing text 5/50
+2024-05-15 18:47:54 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:47:54 - INFO - Material: MoS2, thickness: 6.9 (Unit: nm)
+2024-05-15 18:47:54 - INFO - Material: MoS2, thickness: 7.1 (Unit: nm)
+2024-05-15 18:47:54 - INFO - Analyzing text 6/50
+2024-05-15 18:47:56 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:47:56 - INFO - Material: MoS2, thickness: 7 (Unit: nm)
+2024-05-15 18:47:56 - INFO - Analyzing text 7/50
+2024-05-15 18:47:59 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:47:59 - INFO - Material: MoS2, thickness: 30 (Unit: nm)
+2024-05-15 18:47:59 - INFO - Material: MoS2, thickness: 90 (Unit: nm)
+2024-05-15 18:47:59 - INFO - Analyzing text 8/50
+2024-05-15 18:48:03 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:48:03 - INFO - Material: MoS2, thickness: 122 (Unit: nm)
+2024-05-15 18:48:03 - INFO - Material: MoS2, thickness: 7.2 (Unit: nm)
+2024-05-15 18:48:03 - INFO - Analyzing text 9/50
+2024-05-15 18:48:04 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:48:04 - INFO - Material: MoS2, thickness: 250 (Unit: nm)
+2024-05-15 18:48:04 - INFO - Analyzing text 10/50
+2024-05-15 18:48:07 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:48:07 - INFO - Material: WS2, thickness: 10 (Unit: nm)
+2024-05-15 18:48:07 - INFO - Analyzing text 11/50
+2024-05-15 18:48:11 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:48:11 - INFO - Material: Cr3Te4, thickness: 40 (Unit: nm)
+2024-05-15 18:48:11 - INFO - Material: Cr3Te4, thickness: 240 (Unit: nm)
+2024-05-15 18:48:11 - INFO - Analyzing text 12/50
+2024-05-15 18:48:12 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:48:12 - INFO - Material: PtSe2, thickness: 30 (Unit: nm)
+2024-05-15 18:48:12 - INFO - Analyzing text 13/50
+2024-05-15 18:48:15 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:48:15 - INFO - Material: MoS2, thickness: 14 (Unit: nm)
+2024-05-15 18:48:15 - INFO - Analyzing text 14/50
+2024-05-15 18:48:16 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:48:20 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:48:20 - INFO - Analyzing text 15/50
+2024-05-15 18:48:24 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:48:24 - INFO - Material: GO, thickness: 100 (Unit: nm)
+2024-05-15 18:48:24 - INFO - Material: GF, thickness: 70 (Unit: nm)
+2024-05-15 18:48:24 - INFO - Material: GF, thickness: 7500000 (Unit: mm)
+2024-05-15 18:48:24 - INFO - Analyzing text 16/50
+2024-05-15 18:48:28 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:48:28 - INFO - Material: CoVMnFeZnPS3, thickness: 60 (Unit: nm)
+2024-05-15 18:48:28 - INFO - Material: CoVMnFeZnPS3, thickness: 100 (Unit: nm)
+2024-05-15 18:48:28 - INFO - Analyzing text 17/50
+2024-05-15 18:48:31 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:48:31 - INFO - Material: CuSbS2, thickness: 50 (Unit: nm)
+2024-05-15 18:48:31 - INFO - Analyzing text 18/50
+2024-05-15 18:48:34 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:48:34 - INFO - Material: MoS2, thickness: 5 (Unit: layers)
+2024-05-15 18:48:34 - INFO - Material: WS2, thickness: 5 (Unit: layers)
+2024-05-15 18:48:34 - INFO - Material: MoSe2, thickness: 5 (Unit: layers)
+2024-05-15 18:48:34 - INFO - Analyzing text 19/50
+2024-05-15 18:48:36 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:48:36 - INFO - Analyzing text 20/50
+2024-05-15 18:48:39 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:48:39 - INFO - Material: N doped In2S3, thickness: 30 (Unit: nm)
+2024-05-15 18:48:39 - INFO - Analyzing text 21/50
+2024-05-15 18:48:40 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:48:40 - INFO - Analyzing text 22/50
+2024-05-15 18:48:42 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:48:42 - INFO - Material: SnO, thickness: 70 (Unit: nm)
+2024-05-15 18:48:42 - INFO - Analyzing text 23/50
+2024-05-15 18:48:45 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:48:45 - INFO - Material: BiI3, thickness: 80000 (Unit: nm)
+2024-05-15 18:48:45 - INFO - Material: BiI3, thickness: 10000000 (Unit: nm)
+2024-05-15 18:48:45 - INFO - Analyzing text 24/50
+2024-05-15 18:48:48 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:48:48 - INFO - Material: MoS2Ti3C2Tx, thickness: 20000000 (Unit: mm)
+2024-05-15 18:48:48 - INFO - Analyzing text 25/50
+2024-05-15 18:48:49 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:48:49 - INFO - Material: Bi, thickness: 47000 (Unit: nm)
+2024-05-15 18:48:49 - INFO - Analyzing text 26/50
+2024-05-15 18:48:52 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:48:52 - INFO - Analyzing text 27/50
+2024-05-15 18:48:53 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:48:53 - INFO - Material: PtTe2, thickness: 40 (Unit: nm)
+2024-05-15 18:48:53 - INFO - Analyzing text 28/50
+2024-05-15 18:48:58 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:48:58 - INFO - Material: C, thickness: 120 (Unit: nm)
+2024-05-15 18:48:58 - INFO - Analyzing text 29/50
+2024-05-15 18:49:00 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:49:00 - INFO - Material: Bi2Te3, thickness: 120 (Unit: nm)
+2024-05-15 18:49:00 - INFO - Analyzing text 30/50
+2024-05-15 18:49:01 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:49:01 - INFO - Material: PtSe2, thickness: 30 (Unit: nm)
+2024-05-15 18:49:01 - INFO - Analyzing text 31/50
+2024-05-15 18:49:04 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:49:04 - INFO - Analyzing text 32/50
+2024-05-15 18:49:08 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:49:08 - INFO - Material: Ti6Al4V, thickness: 8000 (Unit: mm)
+2024-05-15 18:49:08 - INFO - Analyzing text 33/50
+2024-05-15 18:49:09 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:49:11 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:49:11 - INFO - Material: TMDC, thickness: 8 (Unit: Å)
+2024-05-15 18:49:11 - INFO - Analyzing text 34/50
+2024-05-15 18:49:13 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:49:13 - INFO - Material: MoS2, thickness: 50 (Unit: nm)
+2024-05-15 18:49:13 - INFO - Analyzing text 35/50
+2024-05-15 18:49:15 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:49:15 - INFO - Material: Al2O3, thickness: 500 (Unit: nm)
+2024-05-15 18:49:15 - INFO - Analyzing text 36/50
+2024-05-15 18:49:19 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:49:19 - INFO - Analyzing text 37/50
+2024-05-15 18:49:24 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:49:24 - INFO - Material: GaGeTe, thickness: 800 (Unit: nm)
+2024-05-15 18:49:24 - INFO - Material: GaGeTe, thickness: 220 (Unit: nm)
+2024-05-15 18:49:24 - INFO - Analyzing text 38/50
+2024-05-15 18:49:25 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:49:25 - INFO - Material: P3HT, thickness: 20.7 (Unit: nm)
+2024-05-15 18:49:25 - INFO - Analyzing text 39/50
+2024-05-15 18:49:28 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:49:28 - INFO - Material: C, thickness: 60 (Unit: nm)
+2024-05-15 18:49:28 - INFO - Material: C, thickness: 100 (Unit: nm)
+2024-05-15 18:49:28 - INFO - Analyzing text 40/50
+2024-05-15 18:49:32 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:49:32 - INFO - Material: SiO2, thickness: 10000 (Unit: Å)
+2024-05-15 18:49:32 - INFO - Material: SiO2, thickness: 180 (Unit: Å)
+2024-05-15 18:49:32 - INFO - Analyzing text 41/50
+2024-05-15 18:49:35 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:49:35 - INFO - Material: GaAs, thickness: 15 (Unit: Å)
+2024-05-15 18:49:35 - INFO - Material: GaAs, thickness: 600 (Unit: Å)
+2024-05-15 18:49:35 - INFO - Analyzing text 42/50
+2024-05-15 18:49:37 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:49:37 - INFO - Material: Bi2O2Se, thickness: 24 (Unit: nm)
+2024-05-15 18:49:37 - INFO - Analyzing text 43/50
+2024-05-15 18:49:39 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:49:39 - INFO - Analyzing text 44/50
+2024-05-15 18:49:41 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:49:41 - INFO - Analyzing text 45/50
+2024-05-15 18:49:43 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:49:43 - INFO - Analyzing text 46/50
+2024-05-15 18:49:45 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:49:45 - INFO - Analyzing text 47/50
+2024-05-15 18:49:49 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:49:49 - INFO - Analyzing text 48/50
+2024-05-15 18:49:50 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:49:50 - INFO - Analyzing text 49/50
+2024-05-15 18:49:53 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:49:53 - INFO - Material: Graphene Oxide, thickness: 0.21 (Unit: nm)
+2024-05-15 18:49:53 - INFO - Analyzing text 50/50
+2024-05-15 18:49:58 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-15 18:49:58 - INFO - Analysis results successfully saved.

@@ -1,0 +1,14 @@
+numpy
+scipy
+matplotlib
+pandas
+spglib
+mendeleev
+openai
+nltk
+spacy
+urllib3
+textblob
+google-generativeai
+backoff
+chardet

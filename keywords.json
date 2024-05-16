@@ -1,0 +1,20 @@
+{
+    "keywords": [
+        "2D materials",
+        "ultrathin materials",
+        "van der Waals materials"
+    ],
+    "keyword_weights": {
+        "2D materials": "high",
+        "ultrathin materials": "medium",
+        "van der Waals materials": "high"
+    },
+    "keyword_synonyms": {
+        "2D materials": [
+            "two-dimensional materials"
+        ],
+        "van der Waals materials": [
+            "vdW materials"
+        ]
+    }
+}

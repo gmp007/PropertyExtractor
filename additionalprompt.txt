@@ -1,0 +1,3 @@
+         - Titanium dioxide films reported at 1 µm thickness: Report as "Material: TiO2, Thickness: 10".
+        - Text mentions 2D-based h-AB monolayer with a thickness of 0.34 nm obtaied using AFM: Report as "Material: AB, Thickness: 3.4, Unit: nm, Method: AFM".
+        - Text mentions the thickness of material "ABC3" is 60 Å  from our experimental data analysis: Report as "Material: ABC3, Thickness: 60, Unit: Å, Method: Experiment ".

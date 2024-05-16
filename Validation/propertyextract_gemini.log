@@ -1,0 +1,134 @@
+2024-05-15 18:41:52 - INFO - ==========================================================================
+2024-05-15 18:41:52 - INFO - Progress information of structured data extraction using PropertyExtractor
+2024-05-15 18:41:52 - INFO - ==========================================================================
+2024-05-15 18:41:52 - INFO - Existing file propertyextractor_validation_result_gemini.csv removed.
+2024-05-15 18:41:52 - INFO - Detected encoding ISO-8859-1 with confidence 0.73
+2024-05-15 18:41:52 - INFO - Analyzing text 1/50
+2024-05-15 18:41:54 - INFO - Material: hBN, thickness: 4.1 (Unit: Å)
+2024-05-15 18:41:54 - INFO - Material: hBN, thickness: 2.5 (Unit: Å)
+2024-05-15 18:41:54 - INFO - Analyzing text 2/50
+2024-05-15 18:41:57 - INFO - Analyzing text 3/50
+2024-05-15 18:42:00 - INFO - Material: MoS2, thickness: 180 (Unit: nm)
+2024-05-15 18:42:00 - INFO - Material: MoS2, thickness: 460 (Unit: nm)
+2024-05-15 18:42:00 - INFO - Analyzing text 4/50
+2024-05-15 18:42:03 - INFO - Material: MoS2, thickness: 7.2 (Unit: nm)
+2024-05-15 18:42:03 - INFO - Material: MoS2, thickness: 126.9 (Unit: nm)
+2024-05-15 18:42:03 - INFO - Analyzing text 5/50
+2024-05-15 18:42:05 - INFO - Material: MoS2, thickness: 6.9 (Unit: nm)
+2024-05-15 18:42:05 - INFO - Material: MoS2, thickness: 20.7 (Unit: nm)
+2024-05-15 18:42:05 - INFO - Analyzing text 6/50
+2024-05-15 18:42:07 - INFO - Material: MoS2, thickness: 7 (Unit: nm)
+2024-05-15 18:42:07 - INFO - Analyzing text 7/50
+2024-05-15 18:42:10 - INFO - Material: MoS2, thickness: 3 (Unit: nm)
+2024-05-15 18:42:10 - INFO - Material: MoS2, thickness: 9 (Unit: nm)
+2024-05-15 18:42:10 - INFO - Analyzing text 8/50
+2024-05-15 18:42:12 - INFO - Material: MoS2, thickness: 122 (Unit: nm)
+2024-05-15 18:42:12 - INFO - Material: MoS2, thickness: 7.2 (Unit: nm)
+2024-05-15 18:42:12 - INFO - Analyzing text 9/50
+2024-05-15 18:42:14 - INFO - Material: MoS2, thickness: 250 (Unit: nm)
+2024-05-15 18:42:14 - INFO - Analyzing text 10/50
+2024-05-15 18:42:17 - INFO - Material: WS2, thickness: 1 (Unit: nm)
+2024-05-15 18:42:17 - INFO - Material: Graphene, thickness: 100 (Unit: µm)
+2024-05-15 18:42:17 - INFO - Analyzing text 11/50
+2024-05-15 18:42:19 - INFO - Material: Cr3Te4, thickness: 40 (Unit: nm)
+2024-05-15 18:42:19 - INFO - Analyzing text 12/50
+2024-05-15 18:42:21 - INFO - Material: PtSe2, thickness: 30 (Unit: nm)
+2024-05-15 18:42:21 - INFO - Analyzing text 13/50
+2024-05-15 18:42:23 - INFO - Material: MoS2, thickness: 1.4 (Unit: nm)
+2024-05-15 18:42:23 - INFO - Material: MoSe2, thickness: 1.4 (Unit: nm)
+2024-05-15 18:42:23 - INFO - Analyzing text 14/50
+2024-05-15 18:42:27 - INFO - Material: MoS2, thickness: 1.4 (Unit: nm)
+2024-05-15 18:42:27 - INFO - Material: MoSe2, thickness: 1.4 (Unit: nm)
+2024-05-15 18:42:27 - INFO - Analyzing text 15/50
+2024-05-15 18:42:30 - INFO - Material: GO, thickness: 10 (Unit: nm)
+2024-05-15 18:42:30 - INFO - Material: GF, thickness: 7 (Unit: nm)
+2024-05-15 18:42:30 - INFO - Material: GF, thickness: 247 (Unit: nm)
+2024-05-15 18:42:30 - INFO - Analyzing text 16/50
+2024-05-15 18:42:30 - ERROR - Error: 429 Resource has been exhausted (e.g. check quota).. Retrying in 1.58 seconds...
+2024-05-15 18:42:32 - ERROR - Error: 429 Resource has been exhausted (e.g. check quota).. Retrying in 3.42 seconds...
+2024-05-15 18:42:35 - ERROR - Error: 429 Resource has been exhausted (e.g. check quota).. Retrying in 6.19 seconds...
+2024-05-15 18:42:42 - ERROR - Error: 429 Resource has been exhausted (e.g. check quota).. Retrying in 12.84 seconds...
+2024-05-15 18:42:57 - INFO - Material: CoVMnFeZnPS3, thickness: 6 (Unit: nm)
+2024-05-15 18:42:57 - INFO - Material: CoVMnFeZnPS3, thickness: 10 (Unit: nm)
+2024-05-15 18:42:57 - INFO - Analyzing text 17/50
+2024-05-15 18:42:59 - INFO - Material: CuSbS2, thickness: 5 (Unit: nm)
+2024-05-15 18:42:59 - INFO - Analyzing text 18/50
+2024-05-15 18:43:02 - INFO - Material: MoS2, thickness: 5 (Unit: layers)
+2024-05-15 18:43:02 - INFO - Material: WS2, thickness: 5 (Unit: layers)
+2024-05-15 18:43:02 - INFO - Material: MoSe2, thickness: 5 (Unit: layers)
+2024-05-15 18:43:02 - INFO - Analyzing text 19/50
+2024-05-15 18:43:04 - INFO - Material: MoTe2, thickness: 5 (Unit: layers)
+2024-05-15 18:43:04 - INFO - Analyzing text 20/50
+2024-05-15 18:43:07 - INFO - Material: In2S3, thickness: 3 (Unit: nm)
+2024-05-15 18:43:07 - INFO - Analyzing text 21/50
+2024-05-15 18:43:08 - INFO - Analyzing text 22/50
+2024-05-15 18:43:10 - INFO - Analyzing text 23/50
+2024-05-15 18:43:12 - INFO - Material: BiI3, thickness: 80 (Unit: nm)
+2024-05-15 18:43:12 - INFO - Analyzing text 24/50
+2024-05-15 18:43:15 - INFO - Material: MoS2, thickness: 50 (Unit: Å)
+2024-05-15 18:43:15 - INFO - Material: MoS2, thickness: 100 (Unit: Å)
+2024-05-15 18:43:15 - INFO - Analyzing text 25/50
+2024-05-15 18:43:17 - INFO - Material: Bi, thickness: 47 (Unit: nm)
+2024-05-15 18:43:17 - INFO - Analyzing text 26/50
+2024-05-15 18:43:19 - INFO - Material: NiPS3, thickness: 1 (Unit: layer)
+2024-05-15 18:43:19 - INFO - Analyzing text 27/50
+2024-05-15 18:43:21 - INFO - Material: PtTe2, thickness: 40 (Unit: nm)
+2024-05-15 18:43:21 - INFO - Analyzing text 28/50
+2024-05-15 18:43:24 - INFO - Analyzing text 29/50
+2024-05-15 18:43:26 - INFO - Material: Bi2Te3, thickness: 12 (Unit: nm)
+2024-05-15 18:43:26 - INFO - Analyzing text 30/50
+2024-05-15 18:43:28 - INFO - Material: PtSe2, thickness: 30 (Unit: nm)
+2024-05-15 18:43:28 - INFO - Analyzing text 31/50
+2024-05-15 18:43:28 - ERROR - Error: 429 Resource has been exhausted (e.g. check quota).. Retrying in 1.57 seconds...
+2024-05-15 18:43:30 - ERROR - Error: 429 Resource has been exhausted (e.g. check quota).. Retrying in 3.36 seconds...
+2024-05-15 18:43:34 - ERROR - Error: 429 Resource has been exhausted (e.g. check quota).. Retrying in 6.87 seconds...
+2024-05-15 18:43:41 - ERROR - Error: 429 Resource has been exhausted (e.g. check quota).. Retrying in 12.68 seconds...
+2024-05-15 18:43:56 - INFO - Material: Fluorocarbon, thickness: 50 (Unit: nm)
+2024-05-15 18:43:56 - INFO - Analyzing text 32/50
+2024-05-15 18:43:58 - INFO - Analyzing text 33/50
+2024-05-15 18:44:02 - INFO - Material: MoS2, thickness: 8 (Unit: Å)
+2024-05-15 18:44:02 - INFO - Material: WS2, thickness: 8 (Unit: Å)
+2024-05-15 18:44:02 - INFO - Analyzing text 34/50
+2024-05-15 18:44:04 - INFO - Material: MoS2, thickness: 50 (Unit: nm)
+2024-05-15 18:44:04 - INFO - Analyzing text 35/50
+2024-05-15 18:44:06 - INFO - Material: Al2O3, thickness: 50 (Unit: nm)
+2024-05-15 18:44:06 - INFO - Analyzing text 36/50
+2024-05-15 18:44:09 - INFO - Analyzing text 37/50
+2024-05-15 18:44:12 - INFO - Analyzing text 38/50
+2024-05-15 18:44:14 - INFO - Material: P3HT, thickness: 2.07 (Unit: nm)
+2024-05-15 18:44:14 - INFO - Analyzing text 39/50
+2024-05-15 18:44:17 - INFO - Material: DLC, thickness: 60 (Unit: nm)
+2024-05-15 18:44:17 - INFO - Material: DLC, thickness: 100 (Unit: nm)
+2024-05-15 18:44:17 - INFO - Analyzing text 40/50
+2024-05-15 18:44:19 - INFO - Material: SiO2, thickness: 18 (Unit: Å)
+2024-05-15 18:44:19 - INFO - Analyzing text 41/50
+2024-05-15 18:44:22 - INFO - Analyzing text 42/50
+2024-05-15 18:44:24 - INFO - Material: Bi2O2Se, thickness: 24 (Unit: nm)
+2024-05-15 18:44:24 - INFO - Analyzing text 43/50
+2024-05-15 18:44:26 - INFO - Material: SiO2, thickness: 15 (Unit: nm)
+2024-05-15 18:44:26 - INFO - Analyzing text 44/50
+2024-05-15 18:44:29 - INFO - Material: SiO2, thickness: 300 (Unit: nm)
+2024-05-15 18:44:29 - INFO - Material: SiO2, thickness: 100 (Unit: nm)
+2024-05-15 18:44:29 - INFO - Analyzing text 45/50
+2024-05-15 18:44:31 - INFO - Material: SiO2, thickness: 50 (Unit: nm)
+2024-05-15 18:44:31 - INFO - Material: SiO2, thickness: 190 (Unit: nm)
+2024-05-15 18:44:31 - INFO - Analyzing text 46/50
+2024-05-15 18:44:31 - ERROR - Error: 429 Resource has been exhausted (e.g. check quota).. Retrying in 1.94 seconds...
+2024-05-15 18:44:33 - ERROR - Error: 429 Resource has been exhausted (e.g. check quota).. Retrying in 3.65 seconds...
+2024-05-15 18:44:37 - ERROR - Error: 429 Resource has been exhausted (e.g. check quota).. Retrying in 6.30 seconds...
+2024-05-15 18:44:45 - INFO - Material: Co, thickness: 1 (Unit: ML)
+2024-05-15 18:44:45 - INFO - Material: Co, thickness: 19 (Unit: ML)
+2024-05-15 18:44:45 - INFO - Analyzing text 47/50
+2024-05-15 18:44:46 - ERROR - Error: 429 Resource has been exhausted (e.g. check quota).. Retrying in 1.68 seconds...
+2024-05-15 18:44:47 - ERROR - Error: 429 Resource has been exhausted (e.g. check quota).. Retrying in 3.38 seconds...
+2024-05-15 18:44:51 - ERROR - Error: 429 Resource has been exhausted (e.g. check quota).. Retrying in 6.79 seconds...
+2024-05-15 18:45:00 - INFO - Material: PdSe2, thickness: 1 (Unit: bilayer)
+2024-05-15 18:45:00 - INFO - Material: PdSe2, thickness: 2 (Unit: bulk)
+2024-05-15 18:45:00 - INFO - Analyzing text 48/50
+2024-05-15 18:45:03 - INFO - Material: Ga, thickness: 29 (Unit: Å)
+2024-05-15 18:45:03 - INFO - Analyzing text 49/50
+2024-05-15 18:45:05 - INFO - Material: GO, thickness: 2.1 (Unit: nm)
+2024-05-15 18:45:05 - INFO - Analyzing text 50/50
+2024-05-15 18:45:07 - INFO - Material: InAs, thickness: 1.2 (Unit: ML)
+2024-05-15 18:45:07 - INFO - Material: InP, thickness: 2.2 (Unit: ML)
+2024-05-15 18:45:07 - INFO - Analysis results successfully saved.

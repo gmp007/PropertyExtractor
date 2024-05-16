@@ -1,0 +1,9 @@
+On Linux/macOS:
+export GPT4_API_KEY='your_gpt4_api_key_here'
+export GEMINI_PRO_API_KEY='your_gemini_pro_api_key_here'
+
+
+
+On Windows:
+set GPT4_API_KEY='your_gpt4_api_key_here'
+set GEMINI_PRO_API_KEY='your_gemini_pro_api_key_here'

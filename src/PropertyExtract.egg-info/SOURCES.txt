@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/propertyextractor.py
+src/propextract
+src/readin.py
+src/writeout.py
+src/PropertyExtract.egg-info/PKG-INFO
+src/PropertyExtract.egg-info/SOURCES.txt
+src/PropertyExtract.egg-info/dependency_links.txt
+src/PropertyExtract.egg-info/requires.txt
+src/PropertyExtract.egg-info/top_level.txt

@@ -1,0 +1,65 @@
+MaterialName,Thickness(angstrom),OriginalUnit,Method
+hBN,4.1,Å,None
+hBN,2.5,Å,None
+MoS2,180,nm,None
+MoS2,460,nm,None
+MoS2,7.2,nm,None
+MoS2,126.9,nm,None
+MoS2,6.9,nm,HRTEM
+MoS2,20.7,nm,HRTEM
+MoS2,7,nm,AFM
+MoS2,3,nm,TEM
+MoS2,9,nm,TOF-SIMS
+MoS2,122,nm,None
+MoS2,7.2,nm,None
+MoS2,250,nm,None
+WS2,1,nm,AFM
+Graphene,100,µm,None
+Cr3Te4,40,nm,None
+PtSe2,30,nm,None
+MoS2,1.4,nm,AFM
+MoSe2,1.4,nm,AFM
+MoS2,1.4,nm,AFM
+MoSe2,1.4,nm,"AFM No mention of ""thickness"" in the provided text."
+GO,10,nm,None
+GF,7,nm,None
+GF,247,nm,None
+CoVMnFeZnPS3,6,nm,Vacuum solid state
+CoVMnFeZnPS3,10,nm,Vacuum solid state
+CuSbS2,5,nm,Solvothermal
+MoS2,5,layers,AFM
+WS2,5,layers,AFM
+MoSe2,5,layers,AFM
+MoTe2,5,layers,None
+In2S3,3,nm,Hydrothermal
+BiI3,80,nm,Cooling induced growth
+MoS2,50,Å,Microwave assisted hydrothermal method
+MoS2,100,Å,Microwave assisted hydrothermal method
+Bi,47,nm,Atomic force microscopy (AFM)
+NiPS3,1,layer,Atomic force microscopy (AFM)
+PtTe2,40,nm,None
+Bi2Te3,12,nm,Van der Waals epitaxy (vdWe)
+PtSe2,30,nm,None
+Fluorocarbon,50,nm,Ellipsometry
+MoS2,8,Å,None
+WS2,8,Å,"None No ""thickness"" keyword found in the provided text."
+MoS2,50,nm,AP-PECVD
+Al2O3,50,nm,Monte Carlo simulation
+P3HT,2.07,nm,None
+DLC,60,nm,None
+DLC,100,nm,None
+SiO2,18,Å,None
+Bi2O2Se,24,nm,None
+SiO2,15,nm,None
+SiO2,300,nm,None
+SiO2,100,nm,None
+SiO2,50,nm,None
+SiO2,190,nm,None
+Co,1,ML,None
+Co,19,ML,None
+PdSe2,1,bilayer,None
+PdSe2,2,bulk,None
+Ga,29,Å,X-ray reflectometry
+GO,2.1,nm,None
+InAs,1.2,ML,Rutherford backscattering spectrometry
+InP,2.2,ML,Rutherford backscattering spectrometry
