@@ -108,6 +108,7 @@ set GEMINI_PRO_API_KEY='your_gemini_pro_api_key_here'
 If you have used the **PropertyExtractor** package in your research, please cite:
   - [Dynamic In-context Learning with Conversational Models for Data Extraction and Materials Property Prediction](https://doi.org/xxxx) - 
 
+```latex
 @article{Ekuma2024,
   title = {Dynamic In-context Learning with Conversational Models for Data Extraction and Materials Property Prediction},
   journal = {Nature Communications},
@@ -118,9 +119,9 @@ If you have used the **PropertyExtractor** package in your research, please cite
   url = {xx},
   author = {Chinedu Ekuma}
 }
+```
 
-
-
+```latex
 @misc{PropertyExtractor,
   author = {Chinedu Ekuma},
   title = {PropertyExtractor -- LLM-based model to extract material property from unstructured dataset},
@@ -128,7 +129,7 @@ If you have used the **PropertyExtractor** package in your research, please cite
   howpublished = {\url{https://github.com/gmp007/PropertyExtractor}},
   note = {Open-source tool leveraging LLMs like Google Gemini Pro and OpenAI GPT-4 for material property extraction},
 }
-
+```
 
 
 
