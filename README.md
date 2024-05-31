@@ -14,12 +14,12 @@ The advent of natural language processing and large language models (LLMs) has r
 
 ## Installation
 
-**PropertyExtractor** offers straightforward installation options suitable for various user preferences as explained below. We note that all the libraries and dependables are automatically determined and installed alongside the PropertyExtractor executable **"propextract"** in all the installation options. 
+**PropertyExtractor** offers straightforward installation options suitable for various user preferences as explained below. We note that all the libraries and dependables are automatically determined and installed alongside the PropertyExtractor executable **"propertyextract"** in all the installation options. 
 
 1. **Using pip**: Our recommended way to install the **PropertyExtractor** package is using pip. 
    - Quickly install the latest version of the **PropertyExtractor** package with pip by executing: 
      ```
-     pip install -U propextract
+     pip install -U propertyextract
      ```
 
 2. **From Source Code**:
