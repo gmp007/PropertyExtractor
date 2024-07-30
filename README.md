@@ -90,7 +90,7 @@ set GEMINI_PRO_API_KEY='your_gemini_pro_api_key_here'
       use_keywords = True
       # You can add additional custom prompts: modify the file additionalprompt.txt
       additional_prompts = additionalprompt.txt
-      # Name of input file to be processed: csv/excel format     
+      # Name of input file to be processed: csv/excel format
       inputfile_name = 2Dthickness_Elsevier.csv
       # Column name in the input file to be processed
       column_name = Text
@@ -150,3 +150,4 @@ This project is licensed under the GNU GPL version 3 - see the [LICENSE](LICENSE
 - This work was supported by the U.S. Department of Energy, Office of Science, Basic Energy Sciences under Award DOE-SC0024099.
 
 ---
+

@@ -2,8 +2,8 @@ LICENSE
 README.md
 setup.cfg
 setup.py
+src/propertyextract
 src/propertyextractor.py
-src/propextract
 src/readin.py
 src/writeout.py
 src/PropertyExtract.egg-info/PKG-INFO

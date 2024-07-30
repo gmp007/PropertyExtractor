@@ -1,0 +1,57 @@
+MaterialName,Thickness(angstrom),OriginalUnit,Method
+BN,4.1,Å,Ellipsometry
+BN,2.5,Å,Ellipsometry
+C,13.5,Å,XRR
+C,14.3,Å,AFM
+C,13.8,Å,XRR
+MoS2,180,nm,Ultrasonication and iterative cascade centrifugation
+MoS2,460,nm,Ultrasonication and iterative cascade centrifugation
+MoS2,7.2,nm,Two-step sputtering-CVD
+MoS2,126.9,nm,Two-step sputtering-CVD
+MoS2,6.9,nm,HRTEM
+MoS2,7.1,nm,HRTEM
+MoS2,7,nm,Atomic force microscopy
+MoS2,30,nm,Multi-step chemical vapor deposition
+MoS2,90,nm,Time-of-flight secondary ion mass spectroscopy
+MoS2,122,nm,Mo deposition times control
+MoS2,7.2,nm,Camera image of MoS2 films deposited on glass substrates
+MoS2,250,nm,None
+WS2,10,nm,Atomic force microscopy
+Cr3Te4,40,nm,Scanning tunneling microscopy
+Cr3Te4,240,nm,Scanning tunneling microscopy
+PtSe2,30,nm,None
+MoS2,14,nm,Atomic force microscopy
+GO,100,nm,None
+GF,70,nm,None
+GF,7500000,mm,None
+CoVMnFeZnPS3,60,nm,Vacuum solid state method
+CoVMnFeZnPS3,100,nm,Vacuum solid state method
+CuSbS2,50,nm,Solvothermal method
+MoS2,5,layers,AFM
+WS2,5,layers,AFM
+MoSe2,5,layers,AFM
+N doped In2S3,30,nm,Hydrothermal synthesis
+SnO,70,nm,Liquid to solid exfoliation
+BiI3,80000,nm,Cooling induced growth method
+BiI3,10000000,nm,Cooling induced growth method
+MoS2Ti3C2Tx,20000000,mm,Microwave assisted hydrothermal method
+Bi,47000,nm,AFM
+PtTe2,40,nm,None
+C,120,nm,None
+Bi2Te3,120,nm,Van der Waals epitaxy
+PtSe2,30,nm,O2 plasma treatment
+Ti6Al4V,8000,mm,Blow forming
+TMDC,8,Å,"None The text does not provide explicit information on the thickness of any material. Therefore, no entries can be created based on this text."
+MoS2,50,nm,AP-PECVD
+Al2O3,500,nm,Monte Carlo simulation
+GaGeTe,800,nm,"Optical microscopy, atomic force microscopy, and Raman spectrum"
+GaGeTe,220,nm,"Optical microscopy, atomic force microscopy, and Raman spectrum"
+P3HT,20.7,nm,None
+C,60,nm,Sensitivity-enhanced atomic force acoustic microscopy
+C,100,nm,Sensitivity-enhanced atomic force acoustic microscopy
+SiO2,10000,Å,Conventional methods
+SiO2,180,Å,Ultraviolet sensitivity
+GaAs,15,Å,XSAFM
+GaAs,600,Å,XSAFM
+Bi2O2Se,24,nm,Salt-assisted chemical vapor deposition
+Graphene Oxide,0.21,nm,Experimental study using a single mode–hollow core–single mode (SMF–HCF–SMF) fiber structure.

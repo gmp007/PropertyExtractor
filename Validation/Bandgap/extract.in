@@ -1,0 +1,13 @@
+model_type = gemini
+model_name =gemini-pro
+property_name = band gap
+property_unit = eV
+temperature = 0.0
+top_p = 0.95
+max_output_tokens = 80
+use_keywords = True
+additional_prompts = additionalprompt.txt  
+inputfile_name = bandgap_cleaned_9.csv
+column_name = Text
+outputfile_name = bandgap_databasepubmed_9.csv
+

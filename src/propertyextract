@@ -1,0 +1,126 @@
+#!/usr/bin/python
+
+"""
+  PropertyExtractor -- LLM-based model to extract material property from unstructured dataset
+
+  This program is free software; you can redistribute it and/or modify it under the
+  terms of the GNU General Public License as published by the Free Software Foundation
+  version 3 of the License.
+
+  This program is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+  PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+  Email: cekuma1@gmail.com
+  
+""" 
+
+
+import os
+import time
+import copy
+import traceback
+import logging
+from collections import Counter
+from datetime import datetime
+import warnings
+from readin import read_input,get_version,configure_api,load_additional_prompts, ensure_spacy_model 
+from propertyextractor import PropertyExtractor
+from writeout import print_line, print_boxed_message, print_banner
+
+
+
+
+current_time = datetime.now().strftime('%H:%M:%S')
+current_date = datetime.now().strftime('%Y-%m-%d')
+start_time = time.time()
+
+version = get_version()
+warnings.filterwarnings('ignore')
+
+
+if __name__ == "__main__":
+    warnings.filterwarnings('ignore')  # Consider logging warnings instead of ignoring
+
+
+
+    log_filename = 'propertyextract.log'
+    if os.path.exists(log_filename):
+        os.remove(log_filename)
+
+    logging.basicConfig(
+        filename=log_filename,
+        filemode='a',
+        format='%(asctime)s - %(levelname)s - %(message)s',
+        datefmt='%Y-%m-%d %H:%M:%S',
+        level=logging.INFO
+    )
+    
+        
+    options = read_input()
+    additional_prompt_text = load_additional_prompts("additionalprompt.txt") 
+    column_name = options.get("column_name", "Text")
+    outputfile_name = options.get("outputfile_name", "output.csv")
+    inputfile_name = options.get("inputfile_name", "input.csv")
+    
+    
+    #api_key = options.get("api_key", " ")
+    #print(api_key)
+    model_type=options.get("model_type", "gemini").lower()
+    model_name=options.get("model_name", "gemini-pro")
+    property_name=options.get("property_name", " ").lower()
+    
+    
+    configure_api(model_type)
+    
+    if model_type == "gemini":
+        mode = "Google Gemini Pro"
+    elif model_type == "chatgpt":
+        mode = "OpenAI Gpt-4" 
+        
+    print_banner(version, mode, model_name)    
+    ensure_spacy_model()
+    
+    analyzer = PropertyExtractor(
+        property_name=property_name,
+        property_unit=options.get("property_unit", " "),
+        model_name=model_name,
+        model_type=model_type,
+        temperature=options.get("temperature", 0.0),
+        top_p=options.get("top_p", 0.95),
+        max_output_tokens=int(options.get("max_output_tokens", 80)),
+        additional_prompts=additional_prompt_text,
+        keyword_filepath="keywords.json",
+        prep_keyword_path = "prep_keyword.txt"
+    )
+    
+    
+    #print("outputfile_name ", outputfile_name)
+    print(f"Be Patient, Processing Corpus to Extract {property_name.capitalize()} values ... ")
+    timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    try:
+        logging.info("==========================================================================")
+        logging.info("Progress information of structured data extraction using PropertyExtractor")
+        logging.info(f"Calculation started at {timestamp}")
+        logging.info("==========================================================================")
+        analyzer.process_and_save_text(inputfile_name, column_name, outputfile_name) 
+        
+    except Exception as e:
+        logging.error("Failed to process and save abstracts: {}".format(e))   
+
+    print_boxed_message()
+
+    print("")
+
+    end_time = time.time()  # Capture the end time
+    elapsed_time = end_time - start_time  # Calculate the elapsed time
+
+    print(f"Calculation Completed Successfully Using {elapsed_time:.3f}s\nGOOD LUCK!")
+    logging.info(f"Calculation Completed Successfully Using {elapsed_time} s")
+    logging.info("Analysis results successfully saved.")
+    print("")
+
+    with open("calctime.log", 'w') as f:
+        f.write(f"Calculation done in {elapsed_time:.2f} s\n")
+        
+        
+

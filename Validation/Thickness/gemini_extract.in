@@ -1,0 +1,13 @@
+model_type = gemini
+model_name = gemini-pro
+property_name = thickness
+property_unit = angstrom
+temperature = 0.0
+top_p = 0.95
+max_output_tokens = 80
+use_keywords = True
+additional_prompts = additionalprompt.txt  
+inputfile_name = validationData.csv
+column_name = Text
+outputfile_name = propertyextractor_validation_result_gemini.csv
+

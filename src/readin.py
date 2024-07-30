@@ -14,7 +14,7 @@
 import os
 import sys
 import spacy
-from writeout import write_default_inputs,write_additionalprompts,write_default_keywords,print_default_input_message
+from writeout import write_default_inputs,write_additionalprompts,write_default_keywords,print_default_input_message,write_prep_keyword_prompts
  
 def get_version():
     try:
@@ -65,6 +65,7 @@ def read_input():
         write_default_inputs(cwd)
         write_additionalprompts(cwd)
         write_default_keywords(cwd)
+        write_prep_keyword_prompts(cwd)
         print_default_input_message()
         sys.exit(0)
 

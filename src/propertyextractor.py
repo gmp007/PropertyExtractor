@@ -48,7 +48,7 @@ import backoff #Solve "HTTP/1.1 429 Too Many Requests"
 
 
 class PropertyExtractor:
-    def __init__(self, property_name, property_unit, model_name='gemini-pro', model_type='gemini', temperature=0.0, top_p =0.95, max_output_tokens=80, additional_prompts=None,keyword_filepath=None):
+    def __init__(self, property_name, property_unit, model_name='gemini-pro', model_type='gemini', temperature=0.0, top_p =0.95, max_output_tokens=80, additional_prompts=None,keyword_filepath=None,prep_keyword_path=None):
         self.property = property_name.lower() #self._create_property_regex(property_name)  
         self.unit_conversion = property_unit
         self.additional_prompts = additional_prompts
@@ -61,14 +61,20 @@ class PropertyExtractor:
         self.keyword_filepath = keyword_filepath
         self.keywords = self.load_keywords() or {}
         self.keywords_str = self._build_keywords()
+        self.prep_keyword_path = prep_keyword_path
         
-        
+
+        if self.prep_keyword_path:
+            print("Post processing keywords read successfully")
+                    
         
         if self.load_keywords():
             print("Keywords read successfully!")
             
         if self.additional_prompts:
             print("Additional prompts read successfully!")
+            
+
         
         
         if self.model_type == 'gemini':
@@ -413,45 +419,50 @@ class PropertyExtractor:
             print("Original Abstract:")
             print(abstract)
 
-#        replacements = {
-#            b'\x91': '‘'.encode('utf-8'),  # Left single quote
-#            b'\x92': '’'.encode('utf-8'),  # Right single quote
-#            b'\x93': '“'.encode('utf-8'),  # Left double quote
-#            b'\x94': '”'.encode('utf-8'),  # Right double quote
-#            b'\x96': '–'.encode('utf-8'),  # En-dash
-#            b'\x97': '—'.encode('utf-8'),  # Em-dash
-#        }
-#        # Decode abstract assuming UTF-8, replace unknown characters with U+FFFD
-#        decoded_abstract = abstract.encode('utf-8', 'replace')
-#        for old, new in replacements.items():
-#            decoded_abstract = decoded_abstract.replace(old, new)
-#        # Now safely decode
-#        clean_abstract = decoded_abstract.decode('utf-8')
-
-
         clean_abstract = re.sub(r'\s{2,}', ';', abstract)  # Replace multiple spaces with semicolon
         clean_abstract = re.sub(r'\(\?\)', '', clean_abstract)  # Remove uncertainty notations
-    
-    
+
         # Remove HTML/XML tags
         no_tags = re.sub(r'<[^>]+>', '', clean_abstract)
-        
+
         if diagnostics:
             print("\nAfter Removing Tags:")
             print(no_tags)
+            
         protected_formulas = re.sub(r'(\b[A-Za-z0-9]+(?:\/[A-Za-z0-9]+)+\b)', lambda x: x.group(0).replace('/', '∕'), no_tags)
-        
+
         # Split the cleaned text into sentences
         sentences = sent_tokenize(protected_formulas)
-        
+
         if diagnostics:
             print("\nAfter Sentence Tokenization:")
             for i, sentence in enumerate(sentences):
                 print(f"Sentence {i+1}: {sentence}")
-        
+
         # Join sentences to form a continuous block of text
         continuous_text = ' '.join(sentences)
-        return continuous_text
+
+        # Read keywords from the file specified by self.prep_keyword_path
+        try:
+            with open(self.prep_keyword_path, "r") as f:
+                try:
+                    keywords = json.loads(f.read())
+                except json.JSONDecodeError:
+                    f.seek(0)
+                    keywords = [line.strip() for line in f.readlines()]
+            
+            # Create a pattern for the keywords
+            pattern = '|'.join(keywords)
+
+            # Filter the continuous text using the keywords
+            if re.search(pattern, continuous_text, re.IGNORECASE):
+                return continuous_text
+            else:
+                return None
+        except FileNotFoundError:
+            print(f"Error: '{self.prep_keyword_path}' file not found.")
+            return None
+
 
     def build_history(self):
         if not self.recent_analyses or len(self.recent_analyses) < 3:
@@ -770,10 +781,15 @@ class PropertyExtractor:
             elif file_extension in ['.xls', '.xlsx']:
                 examples = pd.read_excel(input_csv)
             else:
-                logging.error("Unsupported file format")
+                message = "Unsupported file format"
+                logging.error(message)
+                print(message)
                 return
         except Exception as e:
-            logging.error(f"Error reading the file: {e}")
+            message = f"Error reading the file: {e}"
+            print(message)
+            logging.error(message)
+            
             return
 
 
@@ -803,6 +819,8 @@ class PropertyExtractor:
                 with open(output_csv, 'a', newline='', encoding='utf-8') as f:
                     writer = csv.writer(f)
                     if not file_exists:
+                        timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+                        writer.writerow([f"Timestamp: {timestamp}"])
                         writer.writerow(["MaterialName", f"{self.property.capitalize()}({self.unit_conversion})", "OriginalUnit", "Method"])
                         file_exists = True
 

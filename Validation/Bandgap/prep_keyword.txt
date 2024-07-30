@@ -1,0 +1,1 @@
+["bandgap", "band gap"]

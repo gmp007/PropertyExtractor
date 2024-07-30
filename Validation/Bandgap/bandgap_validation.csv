@@ -1,0 +1,1239 @@
+Timestamp: 2024-06-21 08:54:33
+MaterialName,Band gap(ev),OriginalUnit,Method
+MAPbI3,1.64,eV,High-pressure engineering
+SnS,0.56,eV,None
+SnSe,0.54,eV,None
+SnTe,0.35,eV,None
+BN,6.5,eV,None
+SbSeBr,1.18,eV,First-principles calculations
+TiO2,3.2,eV,None
+GeBr2MA,2.2,eV,DFT-1/2 quasiparticle
+GeI2MA,1.9,eV,DFT-1/2 quasiparticle
+VNPs,2.53,eV,None
+VNPs,2.66,eV,None
+Alumina,5.853,eV,"None No ""band gap"" related information found in the provided text."
+AlNBN,5.26,eV,"DFT No ""band gap"" related information found in the provided text."
+ZnO,3.2,eV,UV-vis
+MoS2,1.8,eV,None
+GaNBN,4.45,eV,First principles calculations using density functional theory
+Bi2Te3,1.15,eV,Diffuse reflectance spectroscopy technique
+Bi2Te3,2.52,eV,Diffuse reflectance spectroscopy technique
+PPMA,3.66,eV,Ultraviolet-visible spectrophotometer
+PPMA,3.83,eV,Ultraviolet-visible spectrophotometer
+TiO2,0.2,eV,None
+CuO,1.0,eV,Kubelka-Munk function from diffuse reflectance spectra (DRS) obtained using ultraviolet visible (UV-Vis) spectroscopy
+CdS,2.4,eV,None
+InAs,0.77,eV,PBE functional
+InAs,1.41,eV,HSE06 functional
+Biphenylene,0.08,eV,DFT combined with non-equilibrium Green's function
+FA,1.67,eV,None
+DFBT1,1.49,eV,DFT
+DFBT2,1.55,eV,DFT
+DFBT3,1.61,eV,DFT
+BP,1.086,eV,"GGA-PBE No mention of ""band gap"" in the provided text."
+CsPbI,1.7,eV,None
+P1,2.41,eV,None
+P2,3.02,eV,None
+QQ1,1.80,eV,None
+CZ,3.0,eV,None
+CZ,2.45,eV,None
+CuI,3.24,eV,None
+MASnI3,1.3,eV,None
+Tridecacene,0.126,meV,Scanning probe microscopy
+CdSe,1.71,eV,Transient absorption (TA) spectroscopy
+CdTe,0.055,meV,Vapor-liquid-solid (VLS) mechanism
+CNT,0.57,eV,Electrical conductivity measurement
+InSb,0.9,eV,None
+WSe2,1.65,eV,None
+Perovskite,1.74,eV,None
+Graphene,0,eV,None
+SA1,1.91,eV,None
+SA2,1.93,eV,None
+SA3,1.95,eV,None
+SZO,3.27,eV,None
+TCOF,2.01,eV,DFT
+VP,0.41,eV,Photoluminescence spectroscopy
+C3N4,2.49,eV,None
+AgC3N4,2.36,eV,None
+NiO,2.32,eV,None
+NiO,2.29,eV,None
+NiO,2.24,eV,None
+PCZ15,2.44,eV,None
+Stanene,0.460,eV,DFT
+Stanane,0.170,eV,DFT
+Si,1.12,eV,None
+BP,0.817,eV,DFT
+BP,1.971,eV,DFT
+Li2ZnGeS4,3.49,eV,None
+Fe,2.2,eV,None
+Cs4CuSb2Cl12,1.6,eV,None
+PCN,3.0,eV,None
+Graphene,0.0,,Tight binding model
+CN,2.56,eV,None
+Te,0.35,eV,None
+Metal oxides,0.18,eV,Autoencoding algorithms
+BP,0.308,eV,None
+BP,0.334,eV,None
+EuCot,2.3,eV,STS
+Si,1.1,eV,None
+Si,3.3,eV,None
+Si,3.5,eV,None
+PbTe,0.35,eV,None
+C3N4,2.7,eV,None
+GaAsC6,1.937,eV,First-principles calculations
+ZCISe,1.49,eV,None
+Bi,0.26,eV,None
+C12H12BNO4P,3.0,eV,None
+Bi2Te3,0.17,eV,None
+PrO2,1.49,eV,None
+TbO2,1.51,eV,None
+ZnTe,2.2,eV,UV-visible spectroscopy transmittance measurements
+KTlO,2.25,eV,HSE06
+AZO,3.42,eV,None
+Urea,6.21,eV,HSE
+Urea,6.85,eV,HSE
+Urea,6.99,eV,HSE
+BTTFIC,1.58,eV,None
+BN,5.98,eV,"None Material: Graphene, ""band gap (Converted): None (Original Unit: None)"", Method: DFT calculations"
+BP,0.3,eV,"None Material: BP, ""band gap (Converted): 2 (Original Unit: eV)"", Method: None"
+PtN2,0.075,meV,PSO-based global structure search method combined with first principles calculations
+TiO2,3.34,eV,Microwave-assisted hydrothermal method
+CoO,1.6,eV,None
+CuCo2S4,1.41,eV,UV-vis DRS analysis
+BP,0.705,eV,First-principles calculations
+InP,0.07,eV,Optical characterization
+Ge,0.62,eV,Photoluminescence
+WO3,3.62,eV,Ultraviolet spectrophotometer
+WO3,3.30,eV,Ultraviolet spectrophotometer
+C3N,0.00,eV,First-principles study
+C,7.25,eV,First-principles study
+MoS2,2.80,eV,First-principles study
+Si,0.00,eV,First-principles study
+WSe2,2.10,eV,First-principles study
+KAgSe,1.5,eV,None
+CdS,2.42,eV,UV-visible spectroscopy
+CdTe,1.49,eV,None
+BODN,3.80,eV,C-DFT
+ZnO,3.20,eV,UV-Vis
+SnOH,0.00,eV,First-principles calculations
+SnNH,0.00,eV,First-principles calculations
+Cu2O,1.85,eV,dI/dV spectroscopy
+NaBaB,3.6,eV,DFT
+TlBiS2,1.1,eV,Hybrid functional
+Ba3BiN,2.26,eV,Hybrid functional
+Hematite,2.2,eV,Not Provided
+Hematite,1.75,eV,Not Provided
+Pd2Se3,1.39,eV,First principles calculations
+BP,0.34,eV,None
+ZnO,0.15,eV,None
+BBP,1.8,eV,None
+Bi2O2Se,1.6,eV,None
+BP,0.34,eV,None
+TiO2,2.96,eV,Density functional theory with the Hubbard + U model
+BP,0.3,eV,None
+CdO,2.24,eV,None
+AlN,4.76,eV,None
+GaN,2.80,eV,None
+InN,0.66,eV,None
+BN,4.76,eV,None
+BAs,2.80,eV,None
+BSb,1.66,eV,None
+Si2BN,0.102,meV,First-principles calculations
+Bi2O3,3.5,eV,None
+GNR,2.50,eV,Scanning tunneling spectroscopy
+BLG,0.09,eV,None
+ZrO2,5.70,eV,First principle calculations
+ZrO2,4.67,eV,First principle calculations
+MoSe2,1.24,eV,None
+BiOCl,3.06,eV,None
+Graphene,0,eV,None
+MoS2,1.8,eV,None
+WS2,2.0,eV,None
+ZnO,4.8,eV,None
+BC6N,1.833,eV,None
+TiO2,1.25,eV,PBEx
+InSe,2.60,eV,GW-Bethe-Salpeter equation approaches
+InSe,2.50,eV,GW-Bethe-Salpeter equation approaches
+Te,0.31,eV,Temperature-dependent electrical measurements
+TiMn2N2F2,1.0,eV,Density functional theory
+WS2,2.0,eV,None
+WSe2,1.6,eV,None
+ZnO,3.37,eV,None
+CH3NH3PbI3,1.65,eV,(TD)DFT
+CsPbX3,1.65,eV,None
+Cs4PbX6,3.2,eV,None
+CuO,1.44,eV,None
+Cu2O,2.22,eV,"None No ""band gap"" information found in the provided text."
+BN,6.5,eV,None
+BN,6.5,eV,None
+Polymer,1.4,eV,None
+CdSe,1.7,eV,None
+PbS,0.4,eV,None
+Ge,0.67,eV,DFT
+Antimonene,0.8,eV,None
+Antimonene,1.44,eV,None
+BCN,5.5,eV,None
+BCN,1.0,eV,None
+ZnSnN2,1.74,eV,None
+BP,1.1,eV,ARPES+DFT
+Ti2CO2,0.26,eV,DFT
+Ti2CO2,0.69,eV,DFT
+Zr2CO2,0.26,eV,DFT
+TiO2,2.7,eV,None
+TiO2,2.9,eV,None
+MoS2,2.8,eV,GW
+Ge,0.66,eV,None
+Si,1.12,eV,None
+YN2,0.1,eV,First-principles calculations
+NiMnO3,1.9,eV,optical spectroscopy
+Violet phosphorene,2.50,eV,density functional theory
+Violet phosphorene,0.90,eV,density functional theory
+BP,0.3,eV,None
+BP,1.5,eV,None
+Willemite,5.39,eV,Mott and Davis model
+Willemite,5.27,eV,Mott and Davis model
+LGSi,4.51,eV,None
+LGGe,4.54,eV,None
+LGTi,4.07,eV,None
+VO2,1.17,eV,First principles calculations
+RuAs2,0.69,eV,Temperature dependent resistivity data
+RuAs2,0.64,eV,DFT
+In4Se8,1.45,eV,None
+InSe,1.4,eV,None
+InSe,2.6,eV,None
+Jacutingaite,0.5,eV,First-principles calculations
+BiSnSbO6,2.83,eV,UV-vis diffuse reflectance spectroscopy (DRS)
+BP,0.33,eV,None
+HgTe,0.1,eV,None
+BiFeO3,2.7,eV,None
+C,1.55,eV,None
+BN,6.5,eV,None
+GeP,1.68,eV,None
+GeP,0.51,eV,None
+Graphene,0.0325,eV,None
+ZnBiErO4,1.69,eV,None
+TiO2,3.12,eV,None
+NOTP,2.99,eV,None
+Zn2SnO4,2.48,eV,None
+TiO2,3.12,eV,None
+TiO2,2.99,eV,None
+BN,6.0,eV,None
+MnFe2O4,2.37,eV,Kubelka-Munk model
+MnFe2O4,2.15,eV,Kubelka-Munk model
+Cu2SnTe3,1.80,eV,None
+Cu2SnTe3,1.67,eV,None
+Cu2SnTe3,1.93,eV,None
+Cu2SnTe3,1.90,eV,None
+ZrO2,5.19,eV,Tauc's plot
+ZrO2,5.22,eV,Tauc's plot
+PVDF,3.3,eV,None
+Bi2Sn2O7,1.9,eV,None
+BP,0,eV,None
+PbO,2,eV,None
+HfBi,0.015,eV,First-principles electronic structure calculations
+HfSb,0.015,eV,First-principles electronic structure calculations
+NiO,3.5,eV,DRS studies
+ZnO,2.2,eV,PBE+U
+GaTeCl,3.06,eV,None
+WS2,0.81,eV,DFT
+WS2,0.85,eV,DFT
+WS2,0.87,eV,DFT
+TiO,2.0,eV,None
+ON,4.7,eV,DFT
+Graphene,2.4,eV,First-principles calculations
+Graphyne,0.0,eV,DFT
+TiO2,0.2,eV,DFT
+BP,1.7,eV,Photoluminescence
+BP,1.98,eV,Electron energy loss spectroscopy
+MgZnO,0.69,eV,None
+MgZnO,5.27,eV,None
+Si,1.12,eV,None
+Si,1.67,eV,None
+TiS,1.59,eV,None
+TiSe,1.23,eV,None
+TiTe,0.97,eV,None
+cGNR,0.3,eV,None
+Yttrium nitride,0.55,eV,First-principles calculations
+WS2,2.0,eV,None
+As,1.0,eV,GW
+PbTe,0.27,eV,None
+SnSe,0,,DFT
+aGNR,1.7,eV,Scanning tunneling spectroscopy
+BP,0.34,eV,None
+Arsenene,0.34,eV,None
+Ba2ZnGeS4,2.9,eV,None
+PbO,2.2,eV,DFT
+MoS2,1,eV,None
+PZ1,1.55,unknown,None
+CH3NH3PbBr3,2.2,eV,None
+NiO,3.7,eV,None
+NiO,4,eV,None
+SnS,1.5,eV,None
+Si,1.1,eV,None
+SiO2,5.0,eV,None
+CuI,3.01,eV,None
+Bi2GaSbO7,2.59,eV,None
+Bi2InSbO7,2.54,eV,None
+PtSe2,1.25,eV,None
+CdTe,1.44,eV,None
+BCN,2.6,eV,First-principle calculations
+CdSe,1.61,eV,None
+BCN,0,eV,None
+BCN,5,eV,None
+CeO2,1.61,eV,None
+BP,0.34,eV,None
+InSe,1.26,eV,None
+InSe,1.26,eV,None
+ZnTe,2.297,eV,Polarization-dependent and power-dependent microphotoluminescence measurements
+BP,0.34,eV,None
+Stanene,0.10,eV,GW
+Stanane,1.63,eV,GW-BSE
+CdSe,1.71,eV,None
+Bi,1.23,eV,None
+Franckeite,0.83,eV,None
+Graphene nanoribbons,2.15,eV,None
+Blue phosphorus,0.34,eV,First-principles calculations
+ZnO,3.28,eV,None
+WS2,2.0,eV,None
+SiAs,0.125,meV,None
+BP,0.34,eV,None
+TiO2,3.2,eV,None
+BP,0.34,eV,None
+CoMnO,1.8,eV,None
+Triphenylamine,0.34,eV,None
+AGNRs,0.9,eV,None
+AGNRs,0.9,eV,None
+MPU1,1.48,eV,None
+P,1.75,eV,None
+CNTs,0.79,eV,DFTB
+Graphene,3.16,eV,None
+PbSn,0.7,eV,None
+Graphene nanoribbon,1.4,eV,Angle-resolved photoemission spectroscopy and Fourier-transformed scanning tunneling spectroscopy
+2D crystal,0.55,eV,None
+2D crystal,0.43,eV,None
+GeSe,0.5,eV,Electronic structure calculations
+GeSe,0.9,eV,Electronic structure calculations
+ZnO,0.02,eV,None
+BP,0.34,eV,None
+WS2,2.0,eV,None
+ZnO,0.2,eV,PBE0
+PbS,0.4,eV,None
+PbS,1.6,eV,None
+BP,0.3,eV,None
+BP,2,eV,None
+BP,0.3,eV,None
+Graphene,0,eV,None
+Graphene,0.2,eV,None
+ZnO,4.0,eV,None
+Bi,0.01,meV,None
+Bi2Se3,0.3,eV,First-principles
+MoS2,1.8,eV,None
+FA,1.2,eV,None
+H2O,8.9,eV,GW
+Graphene,3.9,eV,None
+NH3,8.9,eV,GW
+Silicene,0.00155,meV,"None No ""band gap"" information found in the provided text."
+BN,0.0056,eV,None
+BN,6.0,eV,None
+DPNDF,3.157,eV,DFT
+Bi2Ti2O7,2.2,eV,None
+K2C6O6,0.9,eV,None
+BLG,0.32,eV,PBE
+BLG,0.81,eV,HSE06
+Si,1.12,eV,None
+BN,6.5,eV,None
+TiO2,3.22,eV,None
+TiO2,3.00,eV,None
+TiO2,3.36,eV,None
+GO,4.5,eV,None
+GO,3.9,eV,None
+MoS2,1.8,eV,None
+MoS2,1.8,eV,None
+MoO3,3.92,eV,None
+MoO3,3.44,eV,None
+SiO2,3.92,eV,None
+TiO2,3.44,eV,None
+Bi2O3,3.44,eV,None
+Graphyne,0.0,eV,None
+SFBTD,2.0,eV,Cyclic voltammetry
+MoS2,0.5,eV,Photoluminescence (PL) spectroscopy
+Ag3AsO4,1.88,eV,Hybrid-density functional calculations
+Ag3PO4,2.43,eV,Hybrid-density functional calculations
+In2O3,3.82,eV,None
+In2O3,3.6,eV,None
+MoS2,2.8,eV,GW
+InAs,0.477,eV,None
+CuO,1.33,eV,None
+CuO,1.18,eV,None
+Cu4P2Se6,1.0,eV,None
+Cu4P3Se4,1.0,eV,None
+TiNI,0.05,eV,None
+CIAS,2.28,eV,None
+CIAS,2.50,eV,None
+BaLa2In2S7,1.87,eV,Optical absorption spectra
+BaLa2In2Se7,1.66,eV,Optical absorption spectra
+CQD,1.23,eV,Not mentioned
+CQD,1.35,eV,Not mentioned
+K2Ta4O11,4.15,eV,None
+TiO2,3.2,eV,None
+OTP,2.2,eV,None
+BaUSe3,2.5,eV,DFT
+CeFeO3,1.93,eV,None
+Graphene,0,eV,None
+BiFeO3,2.2,eV,UV-vis spectroscopy
+BiVO4,2.4,eV,None
+P4O4,2.24,eV,None
+Al2O3,5.99,eV,First-principles calculations
+Bi2Se3,0.0656,eV,Density functional theory calculations
+Sr2SiO4,4.489,eV,None
+Sr2SiO4,4.106,eV,None
+CBPO,5.481,eV,None
+SBPO,5.498,eV,None
+BBPO,5.604,eV,None
+ZnO,3.28,eV,None
+ZnO,3.60,eV,None
+LaB6,2.02,eV,None
+MoS2,1.9,eV,None
+TiO2,3.2,eV,None
+AgBi2I7,1.87,eV,None
+BP,1.36,eV,None
+BAs,1.14,eV,None
+BSb,0.49,eV,None
+BeN2,2.23,eV,Global particle-swarm optimization method
+Tb2O3,1.78,eV,None
+Polyethylene,8.6,eV,Density functional theory and many-body perturbation theory
+Polyethylene,9.1,eV,Density functional theory and many-body perturbation theory
+ZnMgO,3.7,eV,None
+Hf2CO2,1.657,eV,None
+ZrO2,1.657,eV,None
+ZnO,3.2,eV,None
+Zn2NF,1.657,eV,None
+MoS2,2.16,eV,STM
+WS2,2.38,eV,STM
+ZnO,3.2,eV,None
+CuSbS2,1.5,eV,None
+TiO2,2.86,eV,None
+TiO2,2.81,eV,None
+TiO2,2.61,eV,None
+MoS2,1.9,eV,ARPES
+P3N5,5.87,eV,Soft X-ray spectroscopy measurements and DFT calculations
+MoS2,0.4,eV,Time- and angle-resolved photoemission
+ZrO2,1.5,eV,Controlled magnesiothermic reduction in 5% H2/Ar
+ZrO2,5,eV,None
+CdS,2.4,eV,None
+ZnO,3.3,eV,None
+YTaON,2.1,eV,None
+CdS,2.4,eV,"None Material: CdS, ""band gap (Converted): 2.4 (Original Unit: eV)"", Method: None"
+TiO2,3.2,eV,None
+V2O5,1.90,eV,X-ray spectroscopy and density functional theory calculations
+V2O5,1.50,eV,X-ray spectroscopy and density functional theory calculations
+CuWO4,2.30,eV,None Extraction Results:
+Ca3Co4O9,1,eV,DFT
+PbCF2,0.99,eV,DFT
+PbCF2,0.77,eV,DFT
+Na2ZnGe2S6,3.25,eV,None
+SnH,1.00,eV,DFT
+ZrTe5,0.08,meV,None
+GaTe,0.8,eV,None
+CuFe2O4,2.1,eV,None
+RGO,3.84,eV,None
+Stanene,0.1,eV,First-principles calculations
+Germanene,0.1,eV,First-principles calculations
+TiO2,3.2,eV,None
+CdS,2.4,eV,None
+LaTiO3,0.16,eV,None
+CH3NH3PbI3,1.55,eV,None
+CH3NH3SnI3,1.3,eV,None
+MoSe2,1.50,eV,None
+WSe2,1.60,eV,None
+ZnO,3.33,eV,None
+ZnO,3.45,eV,None
+TiO2,2.0,eV,None
+BP,2.5,eV,None
+ZnO,3.33,eV,None
+MAPbCl3,3.09,eV,None
+MAPbBr3,2.31,eV,None
+AsF,0.1,eV,None
+AsOH,0.16,eV,None
+Na2 BaSnS4,3.27,eV,None
+Na2 BaGeS4,3.7,eV,None
+Ge,0.83,eV,None
+B2O,1.0,eV,None
+B6O3,3.8,eV,None
+CsCd4In5Te12,1.42,eV,None
+PTBDTPT,1.61,eV,None
+Gd2Se3,1.76,eV,None
+YbB6,0.3,eV,ARPES
+Cu3VS4,1.72,eV,PBEsol+U
+Cu3VSe4,1.49,eV,PBEsol+U
+Ge,1.05,eV,None
+SnO2,1.9,eV,None
+CuO,1.3,eV,None
+CuO,2.1,eV,None Extraction Results:
+CuO,2.51,eV,UV-visible spectroscopy
+Sb2S3,1.72,eV,None
+CG100,0.3,eV,None
+Heptazole,2.97,eV,None
+InBiCH3,0.29,eV,None
+MoS2,1.7,eV,None
+TiO2,0.87,eV,None
+Cs2BiAgCl6,2.2,eV,None
+SiC7,1.13,eV,None
+WSe2,1.3,eV,None
+ZnIn2S4,2.25,eV,None
+ZnSe,1.3,eV,DFT
+TiO2,3.23,eV,None
+TiO2,3.07,eV,None
+Polyaniline,1.63,eV,None
+Arsenene,1.377,eV,None
+MnSi6,0.2,eV,DFT;+U calculations with the linear response method
+FeSi6,0.85,eV,DFT;+U calculations with the linear response method
+FeSe2,1.0,eV,None
+BP,0.34,eV,None
+In2S3,3.65,eV,None
+BiYO3,5.9,eV,None
+BiFeO3,2.83,eV,None
+BiFeO3,1.90,eV,None
+CZTS,1.5,eV,None
+Bi6S2O15,3.36,eV,None
+Si,2.2,eV,None
+TlSbH2,0.22,eV,None
+TlSbF2,0.22,eV,None
+Bi2S3,3.04,eV,None
+Graphene,0.0366,meV,None
+SnS2,2.15,eV,DFT band structure calculations
+SnS2,0.88,eV,DFT band structure calculations
+KCu2SbS3,1.7,eV,Optical measurements
+Li3AlSiO5,7.29,eV,PBE0
+Biphenylene carbon,1.05,eV,GW approach and the Bethe-Salpeter equation
+BP,0.34,eV,None
+WS2,0.055,eV,None
+MoS2,1.85,eV,None
+Nb2O2F3,1,eV,None
+FG,3,eV,None
+FG,2,eV,None
+Cu2GeSe3,1,eV,None
+Cu2ZnGeSe4,1.48,eV,None
+ZnO,3.3,eV,None
+ZnO,3.2,eV,None
+ZnO,3.1,eV,None
+SnC2Cl,0.2,eV,None
+SnC2Br,0.2,eV,None
+SnC2I,0.2,eV,None
+Bi4Ti3O2,1.8,eV,None
+CaCu3Ti4O12,1.5,eV,None
+H2O,1.5,eV,None
+VO2,0.2,eV,First-principles calculations
+VO2,0.8,eV,First-principles calculations
+AgCuS,1.2,eV,"None No ""band gap"" information found in the provided text."
+ZnO,3.25,eV,UV-Vis diffuse reflectance spectra
+SP,3.0,nm,None
+BP2,3.91,eV,None
+BP3,3.92,eV,None
+BP4,3.93,eV,None
+PbTiO3,3.67,eV,None
+PbTiO3,3.88,eV,None
+BP,0.34,eV,None
+BP,0.34,eV,None
+COFs,2.0,eV,None
+WS2,2.0,eV,None
+Si,1.1,eV,None
+V2C,1.0,eV,None
+V2N,1.1,eV,None
+V2O,1.2,eV,None
+BP,0.3,eV,None
+BP,2.1,eV,None
+BiFeO3,0.4,eV,None
+WS2,2.0,eV,None
+WS2Se2,2.0,eV,None
+CIGSe,2.52,eV,None
+CIGSe,1.61,eV,None
+BiI3,1.57,eV,DFT
+FePS3,1.3,eV,None
+FePSe3,3.5,eV,None
+CuO,1.4,eV,None
+CuO,2.6,eV,None
+ReS2,1.5,eV,None
+MoS2,2.55,eV,None
+BP,0.34,eV,None
+BP,0.34,eV,None
+Co3O4,0.8,eV,GW
+PN,0.8,eV,None
+GaBi,0.172,eV,None
+InBi,0.172,eV,None
+EuTiO3,0.24,eV,None
+CuN3,2.23,eV,None
+CuN3,2.39,eV,None
+C3N4,2.7,eV,None
+BP,0.0,GPa,None
+MoS2,0.4,eV,STM and scanning tunneling spectroscopy
+MoSe2,1.68,eV,None
+GeCH3,1.76,eV,HSE06
+Antimonene,0.27,eV,First-principles calculations
+InBi,0.134,meV,First-principles calculations
+GaBi,0.121,meV,First-principles calculations
+MoS2,0.0,eV,DFT-D2
+Ti2COx,0.08,meV,None
+MAPSI,1.53,eV,Hybrid density functional theory
+ZnSe,2.7,eV,None
+TiO2,2.0,eV,Spectroscopic ellipsometry
+TiO2,2.0,eV,UV-vis diffuse reflectance spectroscopy
+GaAsBi,1.24,eV,Measured
+SmB6,0.01,eV,None
+BP,0.34,eV,None
+MoS2,1.9,eV,None
+Graphene,0.3,eV,None
+SiC,1.36,eV,None
+WS2,0.1,eV,None
+SnSe2,1.0,eV,None
+BLG,0.35,eV,None
+BLG,0.55,eV,None
+Ba2AsGaSe5,1.39,eV,UV-vis-NIR diffuse reflectance spectroscopy
+FeS2,0.6578,eV,First principles
+WSe2,2,meV,None
+NaTaO3,2.2,eV,None
+PbS,0.41,eV,None
+SiC,0.00,eV,None
+SiC,2.87,eV,None
+SnSe,0.00,eV,None
+GeSe,0.00,eV,None
+GaBi,0.855,meV,None
+InBi,0.00,meV,None
+MoS2Se2,1.8,eV,None
+MoS2Te2,1.1,eV,None
+CaCO3,7.0,eV,None
+Li2CO3,7.5,eV,None
+SiO2,8.9,eV,None
+Ti2CO2,0.91,eV,None
+Bilayer phosphorene,0.093,eV,None
+BP,0.34,eV,None
+Bi2Te3,1.5,eV,None
+TiO2,3.2,eV,Diffuse reflectance UV-Vis spectroscopy
+HgTe,0.2,eV,Ab initio electronic calculations
+HgSe,0.05,eV,Ab initio electronic calculations
+BP,0.34,eV,First-principle calculations
+ZnO,2.84,eV,UV-Visible spectrophotometry
+Ag3PO4,2.4,eV,None
+BiVO4,2.4,eV,None
+TiO2,3.2,eV,None
+ZnO,2.84,eV,Density functional theory (DFT)
+GaS,3.325,eV,First-principles calculations
+GaSe,3.001,eV,First-principles calculations
+BiOI,1.8,eV,None
+MoS2,1.8,eV,None
+SnO2,3.8,eV,None
+TiO2,3.2,eV,None
+BC2N,2.0,eV,None
+SiC,2.48,eV,None
+ZnO,3.19,eV,UV-DRS
+ZnO,3.25,eV,UV-DRS
+InN,0.37,eV,PBE
+InN,1.48,eV,HSE06
+ZnO,3.05,eV,UV-Vis-DRS
+Graphene nanoribbons,1.8,eV,None
+MoSe2,1.57,eV,None
+Perovskite,1.68,eV,None
+Perovskite,1.68,eV,None
+EuCd2As2,0.77,eV,None
+Ninhydrin,2.17,eV,RPBE-TS
+PCMD8,2.048,eV,DFT
+CdSe,1.74,eV,None
+CdS,2.42,eV,None
+ZnS,3.68,eV,None
+ZrS,0.56,eV,HSE06 + SOC
+ZrSe,0.62,eV,HSE06 + SOC
+ZnO,3.37,eV,None
+MoS2,1.8,eV,None
+WS2,2.0,eV,None
+MoSe2,1.5,eV,None
+LaN3,1.6,eV,None
+ZnTe,2.26,eV,None
+Cu2MoS4,2.17,eV,None
+C,1.00,eV,HSE06
+C,0.50,eV,PBE
+BN,5.58,eV,HSE
+BN,5.58,eV,HSE
+BiOX,1.00,eV,HSE06
+BiOX,0.50,eV,PBE
+BAs,0.75,eV,GGA-PBE
+BAs,1.18,eV,HSE06
+BAs,0.75,eV,GGA-PBE
+BAs,1.18,eV,HSE06
+BiFeO3,2.3,eV,None
+OBHJ,0.9,eV,None
+ZnO,3.1,eV,None
+ZnO,2.8,eV,None
+CuS,0.35,eV,DFT
+CuS,0.39,eV,DFT
+CuS,0.86,eV,DFT
+BP,0.16,meV,None
+SiBN,0.012,meV,None I cannot find the requested information in the provided context. Please provide the full text for accurate data extraction.
+Hck,0.17,eV,None
+ZnS,3.68,eV,"FP-LAPW/GAM-MPW1K, Material: ZnSe, ""band gap (Converted): 2.72 (Original Unit: eV)"", Method: FP-LAPW/GAM-MPW1K, Material: ZnTe, ""band gap"
+ZnO,3.26,eV,None
+CdS,3.2,eV,None
+MMA,6.20,eV,DFT
+InGaN,2.5,eV,None
+Cs2AgBiBr6,2.1,eV,Density functional theory calculations
+Graphene oxide,0.021,eV,"Density functional theory calculations Material: Not provided, ""band gap (Converted): Not provided (Original Unit: Not provided)"", Method: Density functional theory calculations"
+Fe,2.2,eV,DFT
+WS2MoSe2,1.65,eV,DFT
+Cu2Se,1.2,eV,None
+ZnO,2.9,eV,Diffuse reflectance spectroscopy
+ZnO,3.11,eV,"Diffuse reflectance spectroscopy No ""band gap"" information found in the provided text."
+CTF,2.92,eV,None
+Diamondoid,0.6,eV,None
+CdS,2.12,eV,None
+CdS,2.35,eV,None
+ZnS,3.6,eV,None
+ZnO,3.169,eV,None
+ZnO,3.155,eV,None
+ZnO,3.169,eV,None
+T1,2.00,eV,None
+T2,2.05,eV,None
+T3,2.10,eV,None
+SiNRs,2.35,eV,DFT
+BiOI,1.85,eV,None
+YIG,2.8,eV,UV-visible spectroscopy
+ZnO,3.40,eV,Transmittance spectra
+ZnO,3.30,eV,Transmittance spectra
+CdS,2.50,eV,UV-Vis spectrophotometer
+CdS,2.39,eV,UV-Vis spectrophotometer
+BCN,0.808,eV,First-principles calculations
+BCN,0.544,eV,First-principles calculations
+CuO,1.73,eV,UV-visible spectroscopy
+HgCr2Se4,0.3,eV,Soft-x-ray angle-resolved photoemission spectroscopy (SX-ARPES) and first-principles calculations
+BP,0.34,eV,None
+Liquid water,9.3,eV,Bethe-Salpeter equation and time-dependent density functional theory
+PVC,4.04,eV,None
+PVC,2.57,eV,None
+ZnTe,2.225,eV,Swanepoel method
+GdIBr,0.75,eV,First-principles calculations
+InN,0.7,eV,None
+MoS2,1.8,eV,None
+ZnSe,2.6,eV,None
+CsSnI3,1.3,eV,None
+CdSe,0.022,meV,None
+ZnO,3.2,eV,Tauc method
+C,0.0,eV,DFT
+MgSnN,2.0,eV,None
+Si,3.55,eV,None
+Bi,0.56,eV,None
+ZnO,3.2,eV,Tauc plot
+BP,0.95,eV,None
+BP,1.15,eV,None
+GeC,1.73,eV,PBE
+GeC,2.53,eV,HSE06
+BP,0.34,eV,None
+2D crystal,1.95,eV,HSE06
+PdPSe,1.58,eV,None
+FNT,2.0,eV,None
+Germanene,1.65,eV,None
+MoS2,1.8,eV,density functional theory
+Perovskite,1.68,eV,None
+ReS2,1.5,eV,None
+Germanene,0.69,eV,DFT
+MoS2,1.2,eV,None
+MoS2,1.8,eV,None
+ZnO,3.42,eV,None
+ZnO,3.16,eV,None
+Cu3N,1.70,eV,None
+Cu3N,1.90,eV,None
+Cu3N,1.05,eV,None
+CaMnGdMoWO,3.42,eV,UV-vis spectroscopy
+Graphene,0,,None
+PdO,2.2,eV,Tauc plots
+Hematite,2.1,eV,DFT
+Magnetite,2.3,eV,DFT
+Wustite,2.3,eV,DFT
+MoS2,1.9,eV,None
+MoS2,1.9,eV,DFT
+Phosphorene,2.95,eV,GW
+Phosphorene,1.83,eV,GW
+Arsenene,2.56,eV,GW
+Oxychalcogenides,2.5,eV,None
+CsPbIBr,2.03,eV,None
+CdTe,1.45,eV,None
+SnS,1.4,eV,DFT
+C,2.7,eV,None
+TiO2,0.14,eV,None
+ZnS,3.54,eV,None
+ZnO,3.11,eV,None
+ZnO,3.21,eV,None
+ZnO,3.14,eV,None
+BN,4.65,eV,None
+MgO,4.43,eV,None
+ZnO,3.34,eV,None
+CuSCN,3.4,eV,UV-vis spectra measurements
+CuSCN,1.3,eV,UV-vis spectra measurements
+CuO,1.2,eV,UV-vis spectroscopy
+AlN,6.2,eV,None
+ZnS,3.6,eV,First-principles calculations
+NiO,3.18,eV,Tauc plot
+NiO,3.56,eV,Tauc plot
+ZnO,3.00,eV,None
+WS2,2.00,eV,None
+HMNd,1.79,eV,DFT
+HMTA,10.62,eV,DFT
+HMTA,2.63,eV,DFT
+PCN,2.7,eV,DFT
+GeS,1.8,eV,DFT
+PNRs,0.0,eV,DFT-NEGF
+GCN,0.0,eV,None
+TiO2,3.2,eV,None
+GQD,0.0,eV,DFT
+TiS,1.0,eV,None
+PdZrSn,0.91,eV,None
+PdHfSn,0.82,eV,None
+ZnO,3.2,eV,None
+Bi2O3,2.6,eV,None
+CuO,3.48,eV,None
+CuO,2.79,eV,None
+PbSnI3,1.04,eV,DFT
+PbSnI3,1.04,eV,DFT
+Si,0.20,eV,DFT
+Si,0.26,eV,DFT
+Si,0.62,eV,DFT
+Er2FeSbO7,1.88,eV,"No ""band gap"" found in the provided text. No ""band gap"" found in the provided text."
+GaAs,1.364,eV,"No ""band gap"" found in the provided text. No ""band gap"" found in the provided text."
+SnO,0.6,eV,DFT+D3 with GGA-PBE
+SnO,2.85,eV,DFT+D3 with GGA-PBE
+CaAgAs,0,,None
+CN,3.06,eV,None
+CuS,1.72,eV,None
+CuS,1.81,eV,None
+NaGaGeS4,1.8,eV,None
+NbO,2.8,eV,None
+ZnMgO,5.54,eV,None
+MoS2,1.80,eV,None
+CdMnTe,1.826,eV,None
+CsPbBr3,2.30,eV,None
+GeS,1.6,eV,None
+PbS,2.43,eV,UV-vis captivation spectra and Tau relations
+TiTe,0.261,eV,None
+MoS2,1.89,eV,None
+LiAlGe,0.1,eV,None
+ZnO,3.1,eV,None
+Ga2O3,4.8,eV,None
+Si,0.38,eV,None
+Si,0.45,eV,None
+BiOCl,3.6,eV,None
+SnO2,3.0,eV,None
+InAs,0.36,eV,Density functional theory (DFT)
+None,3,eV,None
+SnO,0.7,eV,None
+FeP,1.2,eV,None
+MHP,2.0,eV,None
+CrTiCoAl,0.15,eV,GGA-PBE
+GeS,1.57,eV,First-principles calculations
+GeS,0.87,eV,First-principles calculations
+BP,0.34,eV,None
+BP,0.34,eV,None
+COF,0.34,eV,None
+NFAD4,1.519,eV,"M06∕6-311G(d,p)"
+GeAsWS,1.5,eV,None
+Na2AgGaS3,2.2,eV,None
+Graphene,0.0,,None
+MgSiP2,2.34,eV,None
+ZnO,3.3,eV,None
+TTG,1.89,eV,First-principles calculations
+Asphaltene,3.8,eV,None
+FeOCl,0.6,eV,DFT calculations
+MoS2,1.9,eV,None
+ZnSb,1.12,eV,PBE
+ZnSb,1.92,eV,HSE
+Cs2AgBiBr6,0.773,eV,DFT
+Cs2AgBiCl6,1.030,eV,DFT
+ZnS,4.20,eV,DFT
+GeSe,1.3,eV,None
+Carbon,2.2,eV,None
+hBN,2.2,eV,None
+MoS2,1.9,eV,None
+Graphene,0,eV,None
+BNNR,1.18,eV,None
+BNNR,2.50,eV,None
+CH3NH3PbI3,1.55,eV,None
+K2NiF4,3.2,eV,None
+CTF,2.0,eV,None
+CuS,0.61,eV,DFT
+AgS,0.75,eV,DFT
+AuS,1.02,eV,DFT
+Goethite,2.25,eV,synchrotron-based X-ray absorption and emission spectra and photoelectron spectroscopy
+Goethite,2.55,eV,synchrotron-based X-ray absorption and emission spectra and photoelectron
+Gahnite ferroan nano composite,3.37,eV,None
+GeSe,1.23,eV,HSE06 functional
+ZnO,3.35,eV,Nonthermal plasmas
+ZnO,3.53,eV,Nonthermal plasmas
+ScSCl,2.35,eV,None
+ScSBr,2.51,eV,None
+ScSeCl,2.67,eV,None
+AZO,3.67,eV,XRD
+Nanocalcite,3.5,eV,None
+Nanocalcite,2.9,eV,None
+MoS2,1.8,eV,None
+Cotton,2.75,eV,None
+Carbon nitride,2.75,eV,None
+Phosphorene,2.75,eV,None
+B2N,2.5,eV,None
+B3N,2.2,eV,None
+B4N,1.9,eV,None
+COF,0.65,eV,None
+AuC,0.14,eV,Density functional theory (DFT) calculations
+PbSnC,0.3,eV,First-principles calculations
+TQBQCOF,2.70,eV,First-principles calculations
+NBG,0.3,eV,None
+MD1,2.70,eV,Tauc's equation
+MD2,2.70,eV,Tauc's equation
+Diamond,5.5,eV,None
+SiC,3.2,eV,None
+Ga2O3,4.9,eV,None
+FeS2,0.89,eV,None
+NiO,4.05,eV,None
+PdO,3.84,eV,None
+PdONiO,4.24,eV,None
+ZnO,3.27,eV,None
+ZnO,3.31,eV,None
+ZnO,3.34,eV,None
+GaSb,0.84,eV,None
+GaSb,0.75,eV,None
+InAs,0.54,eV,None
+Coronene,0.84,eV,None
+B,0.84,eV,None
+GNRs,1.8,eV,None
+BeS,5.436,eV,BZW-EF
+GaN,2.33,eV,None
+GaN,3.1,eV,None
+TiO,3.2,eV,None
+M4,2.24,eV,DFT and TD-DFT simulations
+ZrO2,5.8,eV,None
+Al2O3,8.8,eV,None
+Perovskite,1.8,eV,None
+Perovskite,1.1,eV,None
+LiMgP,0.35,eV,None
+LiCaP,0.45,eV,None
+LiSrP,0.55,eV,None
+A1,1.42,eV,DFT
+A2,1.55,eV,DFT
+A3,1.68,eV,DFT
+BiOI,2.15,eV,Not Provided
+ZnO,3.12,eV,Not Provided
+TCPP,2.43,eV,Not Provided
+CdSe,1.71,eV,Not Provided
+Polymer,0.68,eV,None
+hBN,2.16,eV,None
+TiO2,0.2,eV,None
+BN,2.44,eV,Tight-binding approach
+BN,0.26,eV,Tight-binding approach
+BN,3.13,eV,Tight
+MoS2,1.8,eV,Thermal evaporation-assisted chemical vapor deposition (CVD)
+BiOBr,2.78,eV,None
+ZnO,2.28,eV,None
+ZnO,1.70,eV,None
+VSe2,0.20,eV,HSE
+SiTe,1.742,eV,GW
+GeTe,1.742,eV,GW
+SnTe,1.742,eV,GW
+MoS2,2.8,eV,trARPES
+BP,0.8,eV,DFT
+PDPP3T,1.9,eV,DFT with HSE06 functional
+BP,0.3,eV,None
+PTCDA,2.5,eV,None
+GdFeO3,2.18,eV,UV-vis reflectance spectroscopy (DRS) using Tauc relation
+GdFeO3,1.72,eV,"UV-vis reflectance spectroscopy (DRS) using Tauc relation No ""band gap"" information found in the provided text."
+GaS,2.5,eV,None
+GaS,3.0,eV,None
+Fe3O4,2.2,eV,None
+MoSSe,3.5,nm,None
+BiTeCl,0.83,eV,DFT
+BiTeBr,0.80,eV,DFT
+CdS,2.39,eV,None
+Ge2Sb2Te5,0.7,eV,None
+CNT,2.0,eV,Kubelka-Munk function
+CdSe,1.71,eV,Tauc plot analysis
+MgGeP2S6,2.2,eV,None
+CN,3.06,eV,None
+TPDA,1.6,eV,None
+GrMoS2,1.6,eV,None
+AlN,6.2,eV,None
+Germanether,1.37,eV,None
+hBN,6.5,eV,None
+MoS2,1.8,eV,None
+MoS2,1.8,eV,None
+GeSe,1.34,eV,First principles and Boltzmann transport theory
+BeSi,0.2,eV,None
+ZnO,3.3,eV,None
+CsPbI,1.7,eV,None
+LiNbO3,3.8,eV,Tauc relation
+PNRs,1.08,eV,None
+PNRs,0.70,eV,None
+Graphene,0.2,eV,GW
+BP,0.34,eV,None
+Ta2C3,0.026887,meV,First-principles calculations
+Ta2C3,0.006190,meV,First-principles calculations
+CdS,3.10,eV,HSE06 functional
+CdSe,2.97,eV,HSE06 functional
+ZnO,3.4,eV,Tunneling spectroscopy
+ZnO,0.5,eV,Tunneling spectroscopy
+ZnO,3.4,eV,Tunneling spectroscopy
+ZnO,0.5,eV,Tunneling spectroscopy
+ZnO,2.8,eV,None
+TiO2,0.1,eV,None
+CeO2,2.49,eV,UV-visible diffuse reflectance spectroscopy
+CeO2,2.66,eV,UV-visible diffuse reflectance spectroscopy
+CdSe,2.20,eV,UV-vis spectroscopy
+CdSe,2.12,eV,UV-vis spectroscopy
+Ba4GaS4F3,3.13,eV,Experimental
+Ca doped CuScO2,3.88,eV,Experimental
+Ca doped CuScO2,3.91,eV,Experimental
+Polystannoles,2.13,eV,Experimental
+Human hair,2.2,eV,Experimental
+GeSe,0.2864,eV,First-principles calculations based on density functional theory
+GeSe,1.17,eV,First-principles calculations based on density functional theory
+Pyrene,2.88,eV,Photoelectron spectroscopy
+Azupyrene,2.16,eV,Photoelectron spectroscopy
+ZnO,2.99,eV,None
+ZnO,2.76,eV,None
+Fe2O3,2.1,eV,None
+TiN,2.4,eV,None
+AlSb,0.93,eV,None
+MPX3,1.0,eV,None
+BiTeBr,0.93,eV,None
+WS2,1.0,eV,"None No ""band gap"" information found in the provided text."
+ZnSiO4,2.410,eV,None
+ZnSiO4,2.697,eV,None
+SnS,1.1,eV,None
+SnS,1.7,eV,None
+Pyridyne,0.91,eV,First-principles calculations
+GBN,1.12,eV,DFT
+hBN,1.12,eV,DFT
+CMP,1.4,eV,None
+ReS2,1.5,eV,None
+ZnO,3.11,eV,None
+ZnO,3.11,eV,None
+ZnO,3.3,eV,None
+ZnSe,2.7,eV,None
+ZnO,3.3,eV,None
+ZnO,2.7,eV,None
+BeO,6.0,eV,None
+NiO,3.65,eV,Ultraviolet spectrophotometer
+NiO,3.74,eV,Ultraviolet spectrophotometer
+LuCoVSi,0.2,eV,None
+PbS,4.36,eV,None
+LuCoVSi,0.2,eV,None
+PbS,4.36,eV,None
+LaNiO3,0.2,eV,DFT
+GaSe,1.96,eV,None
+InSe,2.41,eV,None
+InSe,2.54,eV,None
+CSb3,0.47,eV,DFT
+CBi3,0.47,eV,DFT
+SnNSs,2.3,eV,None
+Be3Pb2,0.116,eV,None
+BiOBr,2.57,eV,None
+Si2N2O,6.49,eV,First principles
+LiSiON,6.95,eV,First principles
+Ga2O2,2.752,eV,None
+TiO2,3.2,eV,None
+MoS2,1.9,eV,None
+TiO2,3.0,eV,None
+TiO2,0.0032,eV,None
+GaSe,2.94,eV,None
+GaTe,1.88,eV,None
+CdS,2.42,eV,None
+Ag2S,1.02,eV,None
+Ti3C2,0.1,eV,None
+ZrO2,1.38,eV,None
+ZnO,2.50,eV,None
+ZnO,3.67,eV,None
+C,1.50,eV,None
+FeVSb,0.7,eV,mBJ
+None,0.2,meV,None
+ZnO,4.0,eV,None
+CuSCN,2.18,eV,Perdew-Burke-Ernzerhof functional
+CuSeCN,1.80,eV,Perdew-Burke-Ernzerhof functional
+ZT,3.2,eV,UV-Vis DRS
+Mixed oxides containing zinc and lanthanum,3.23,eV,UV-DRS
+Mixed oxides containing zinc and lanthanum,3,eV,UV-DRS
+Blatter radicals,1.7,eV,None
+Cs2AgBiBr6,2.2,eV,None
+Cs2AgBiCl6,2.9,eV,None
+PbNCN,2.4,eV,HSE06 density-functional type
+silicene,0.179,meV,DFT calculations
+HfN2,1.44,eV,"DFT calculations No ""band gap"" information found in the provided text."
+WSSe,1.72,eV,DFT calculations
+WSTe,1.84,eV,DFT calculations
+InSe,1.24,eV,DFT calculations
+CdO,2.5,eV,UV-Vis absorption spectroscopy
+COF,0,eV,Density functional theory calculations
+GeS,1.7,eV,First-principles calculations
+SnS,1.5,eV,First-principles calculations
+Graphene,1.88,eV,N/A
+Graphene,3,eV,N/A
+Graphene,0,eV,N/A
+CaFCl,6.62,eV,N/A
+SnPb halide perovskites,1.28,eV,N/A
+CrP,0.47,eV,Ab initio calculations
+NiO,3.3,eV,None
+NiO,3.17,eV,None
+RuC,0.053,meV,GGA-PBE
+RuC,0.345,meV,HSE
+BN,5.9,eV,DFT
+CdSe,2.0,eV,STS
+PIDIC2T,1.54,eV,None
+PIDIC2T2F,1.54,eV,None
+GTUB5,1.56,eV,UV-Vis spectroscopy
+GTUB5,1.65,eV,DFT calculations
+ONC,5.31,eV,DFT calculations
+Graphene,0.68,eV,DFT calculations
+ZnO,3.2,eV,None
+Red phosphorene,2.46,eV,Density-functional theory
+CDTPSE,1.02,eV,None
+CDTPSE,1.26,eV,None
+GaP,2.19,eV,Photoluminescence excitation spectroscopy
+Mg3N2P3,2.5,eV,First-principles calculations
+SbSiTe3,1.61,eV,DFT and NEGF formalism
+CuO,1.70,eV,Not provided
+GeSe,1.30,eV,Not provided
+GeSe,1.33,eV,GW
+GaAsSiH,2.17,eV,Density functional theory
+MoS2,1.8,eV,None
+Bi2O2S2H2,1.92,eV,None
+NiS2,1.94,eV,None
+GNRs,1.6,eV,None
+BQD,2.46,eV,None
+ZnO,3.2,eV,None
+PrNiO3,3,eV,HSE06
+NdNiO3,3,eV,HSE06
+SmNiO3,3,eV,HSE06
+CuS,2.50,eV,None
+BP,0.34,eV,None
+BP,0.34,eV,None
+Perovskite,1.67,eV,None
+Al,0.0,eV,None
+Perovskite,1.67,eV,None
+Al,0.0,eV,None
+BLG,0.2,eV,Angle-resolved photoelectron spectroscopy
+P6IC,1.30,eV,None
+F6IC,1.37,eV,None
+CdS,2.4,eV,None
+BC2N,1.514,eV,DFT
+BiSI,1.6,eV,None
+CuO,1.5,eV,None
+ZnO,3.16,eV,None
+ZnO,3.26,eV,None
+IQDI,2.9,eV,None
+PTDI,2.8,eV,None
+NDI,2.7,eV,None
+BN,6.0,eV,Density functional theory calculations
+BN,0.2,eV,Density functional theory calculations
+OMCs,0.83,eV,None
+Cs3Sb2I9,2.05,eV,None
+Cs3Sb2I9,1.36,eV,None
+PbS,1.45,eV,None
+PbS,0.31,eV,None
+ZrSSe,1.341,eV,Heyd-Scuseria-Ernzerhof hybrid functional
+PbS,0.72,eV,Tauc plot
+PbS,0.73,eV,Tauc plot
+PbS,0.77,eV,Tauc plot
+WS2,0.14,eV,"Angle-resolved photoemission and optical spectroscopies, along with first-principles calculations"
+Y10,1.35,eV,None
+J11,1.96,eV,None
+IDIC,1.60,eV,None
+NDIC,1.72,eV,None
+ZnMnS,3.7,eV,None
+Violet phosphorus,1.7,eV,None
+Te,1.47,eV,"None No ""band gap"" keyword found in the provided text."
+BP,2.98,eV,None
+ZnCaFe2O4,1.78,eV,None
+ZnO,3.29,eV,UV-VIS
+ZnO,3.29,eV,UV-VIS
+InSe,1.27,eV,None
+InSe,1.27,eV,None
+RhTeCl,2.16,eV,First-principles calculations
+PbO,1.4,eV,None
+PbO,2.0,eV,None
+PbO,2.6,eV,None
+BP,1.9,eV,STEM-EELS
+BP,1.4,eV,STEM-EELS
+BP,1.1,eV,STEM-EELS
+Cn,6.4,eV,None
+Ti3C2,0.1,eV,None
+Ti3C2,0.2,eV,None
+Ti3C2,0.3,eV,None
+iAQM,2.30,eV,None
+iAQM,1.22,eV,None
+WB4,0.1,eV,None
+BiOCl,0.6,eV,None
+Cs2AgBiBr6,2.2,eV,None
+ZnO,2.7,eV,DFT
+AsB,1.2,eV,None
+PANI,2.8,eV,None
+Be2Pd,0.19,meV,None
+Cu,1.95,eV,None
+MoSSe,1.47,eV,None
+NbSe2,0.3,eV,None
+bAs,1.2,GPa,None
+ZnO,3.2,eV,None
+ZnO,2.18,eV,None
+TiO2,0.08,eV,None
+pCOFs,3.01,eV,STM
+ZnO,3.2,eV,UV-vis
+ZnO,3.1,eV,UV-vis
+ZnO,3.0,eV,UV-vis
+ITO,3.17,eV,Tauc plot
+ITO,3.67,eV,Tauc plot
+PbS,0.41,eV,None
+HgTe,0.1,eV,None
+BP,0.34,eV,None
+MTO,3.30,eV,None
+MTO,3.64,eV,None
+SA,6.06,eV,None
+SA,5.70,eV,None
+CdSe,1.74,eV,None
+P3HT,2.00,eV,None
+PPDT2FBT,1.60,eV,None
+Tellurene,1.00,eV,DFT
+Tellurene,0.30,eV,DFT
+rGO,1.00,eV,DFT
+ZnSnN2,1.12,eV,None
+ZnSnN2,1.98,eV,None
+EuIn2As2,0.1,eV,None
+ZnO,3.36,eV,None
+BP,0.34,eV,None
+Og,1.5,eV,GW
+BN,6.5,eV,None
+MoS2,0.36,eV,Time and angle-resolved photoemission spectroscopy
+MoS2,0.36,eV,Time and angle-resolved photoemission spectroscopy
+ZnO,0,eV,PBE functional
+ZnO,2.948,eV,PBE functional
+ZnO,0,eV,HSE06 functional
+ZrTe5,0.006,meV,None
+None,3.2,eV,None
+None,3.2,eV,None
+WS2,1.643,eV,DFT
+WS2,1.102,eV,DFT
+WS2,1.234,eV,DFT
+BP,0.1,eV,None
+Arsenene,0.043,eV,DFT
+NM,2.687,eV,DFT
+QD4,3.40,eV,DFT∕RB3LYP
+ZnO,3.10,eV,None
+ZnO,3.37,eV,None
+CuWO4,2.12,eV,None
+ZnTe,2.24,eV,None
+ZnTe,2.20,eV,None
+TiO2,2.0,eV,None
+TiCoSb,1.0,eV,FP-LAPW DFT
+ZrCoSb,1.0,eV,FP-LAPW DFT
+ZnO,3.10,eV,Linear fitting
+ZnO,2.78,eV,Linear fitting
+AsP,2.41,eV,ab initio swarm-intelligence global minimum structure-searching methods
+Ba5Bi2Co2S10,1.05,eV,None
+Ba5Bi2Co2S10,0.74,eV,None
+MoS2,1.8,eV,None
+ZnO,3.16,eV,None
+Cs2AgBiBr6,2.2,eV,None
+InBN,0.70,eV,DFT
+BiBN,0.09,eV,DFT
+Graphene,0,,None
+InOY,0.70,eV,DFT

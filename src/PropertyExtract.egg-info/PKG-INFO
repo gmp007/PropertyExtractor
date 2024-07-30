@@ -1,13 +1,27 @@
 Metadata-Version: 2.1
 Name: PropertyExtract
-Version: 1.0
+Version: 1.25
 Summary: "PropertyExtract -- LLM-based model to extract material property from unstructured dataset",
-Home-page: https://sourceforge.net/projects/propextract/
+Home-page: https://sourceforge.net/projects/propertyextract/
 Author: Chinedu Ekuma
 Author-email: cekuma1@gmail.com
 License: GNU GPL version 3
 Description-Content-Type: text/markdown
 License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: spglib
+Requires-Dist: mendeleev
+Requires-Dist: openai
+Requires-Dist: nltk
+Requires-Dist: spacy
+Requires-Dist: urllib3
+Requires-Dist: textblob
+Requires-Dist: google-generativeai
+Requires-Dist: backoff
+Requires-Dist: chardet
 
 # PropertyExtractor: An Open-Source Conversational LLM-Based Tool
 
@@ -25,12 +39,12 @@ The advent of natural language processing and large language models (LLMs) has r
 
 ## Installation
 
-**PropertyExtractor** offers straightforward installation options suitable for various user preferences as explained below. We note that all the libraries and dependables are automatically determined and installed alongside the PropertyExtractor executable **"propextract"** in all the installation options. 
+**PropertyExtractor** offers straightforward installation options suitable for various user preferences as explained below. We note that all the libraries and dependables are automatically determined and installed alongside the PropertyExtractor executable **"propertyextract"** in all the installation options. 
 
 1. **Using pip**: Our recommended way to install the **PropertyExtractor** package is using pip. 
    - Quickly install the latest version of the **PropertyExtractor** package with pip by executing: 
      ```
-     pip install -U propextract
+     pip install -U propertyextract
      ```
 
 2. **From Source Code**:
@@ -101,7 +115,7 @@ set GEMINI_PRO_API_KEY='your_gemini_pro_api_key_here'
       use_keywords = True
       # You can add additional custom prompts: modify the file additionalprompt.txt
       additional_prompts = additionalprompt.txt
-      # Name of input file to be processed: csv/excel format     
+      # Name of input file to be processed: csv/excel format
       inputfile_name = 2Dthickness_Elsevier.csv
       # Column name in the input file to be processed
       column_name = Text
@@ -119,9 +133,10 @@ set GEMINI_PRO_API_KEY='your_gemini_pro_api_key_here'
 If you have used the **PropertyExtractor** package in your research, please cite:
   - [Dynamic In-context Learning with Conversational Models for Data Extraction and Materials Property Prediction](https://doi.org/xxxx) - 
 
+```latex
 @article{Ekuma2024,
   title = {Dynamic In-context Learning with Conversational Models for Data Extraction and Materials Property Prediction},
-  journal = {Nature Communications},
+  journal = {XXX},
   volume = {xx},
   pages = {xx},
   year = {xx},
@@ -129,9 +144,9 @@ If you have used the **PropertyExtractor** package in your research, please cite
   url = {xx},
   author = {Chinedu Ekuma}
 }
+```
 
-
-
+```latex
 @misc{PropertyExtractor,
   author = {Chinedu Ekuma},
   title = {PropertyExtractor -- LLM-based model to extract material property from unstructured dataset},
@@ -139,7 +154,7 @@ If you have used the **PropertyExtractor** package in your research, please cite
   howpublished = {\url{https://github.com/gmp007/PropertyExtractor}},
   note = {Open-source tool leveraging LLMs like Google Gemini Pro and OpenAI GPT-4 for material property extraction},
 }
-
+```
 
 
 
@@ -160,3 +175,4 @@ This project is licensed under the GNU GPL version 3 - see the [LICENSE](LICENSE
 - This work was supported by the U.S. Department of Energy, Office of Science, Basic Energy Sciences under Award DOE-SC0024099.
 
 ---
+

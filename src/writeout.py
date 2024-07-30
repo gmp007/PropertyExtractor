@@ -66,6 +66,32 @@ outputfile_name = outputfile.csv
 
 
 
+def write_prep_keyword_prompts(cwd):
+    """
+    Writes a default prep_keyword.txt file in the specified directory if it does not exist.
+    
+    Parameters:
+    cwd (str): The current working directory where the file should be written.
+    """
+
+    file_path = os.path.join(cwd, "prep_keyword.txt")
+
+    if not os.path.exists(file_path):
+        # Define the content to be written to the file
+        pre_key = """["bandgap", "band gap"]\n"""
+
+        try:
+            with open(file_path, "w") as file:
+                file.write(pre_key)
+            print(f"'prep_keyword.txt' created successfully in {cwd}.")
+        except IOError as e:
+            print(f"Failed to write to the file: {e}")
+    else:
+        print(f"'prep_keyword.txt' already exists in {cwd}. No action was taken.")
+
+        
+        
+
 def write_additionalprompts(cwd):
     """
     Writes a default additionalprompt.txt file in the specified directory if it does not exist.
