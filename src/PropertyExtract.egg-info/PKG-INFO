@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: PropertyExtract
-Version: 1.25
+Version: 1.30
 Summary: "PropertyExtract -- LLM-based model to extract material property from unstructured dataset",
 Home-page: https://sourceforge.net/projects/propertyextract/
 Author: Chinedu Ekuma
