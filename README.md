@@ -111,13 +111,13 @@ If you have used the **PropertyExtractor** package in your research, please cite
 ```latex
 @article{Ekuma2024,
   title = {Dynamic In-context Learning with Conversational Models for Data Extraction and Materials Property Prediction},
-  journal = {XXX},
-  volume = {xx},
-  pages = {xx},
-  year = {xx},
-  doi = {xx},
-  url = {xx},
-  author = {Chinedu Ekuma}
+  journal = {APL Mach. Learn.},
+  volume = {3},
+  pages = {016119},
+  year = {(2025)},
+  doi = {https://doi.org/10.1063/5.0254406},
+  url = {https://pubs.aip.org/aip/aml/article/3/1/016119/3340751/Dynamic-in-context-learning-with-conversational},
+  author = {Chinedu E. Ekuma}
 }
 ```
 
